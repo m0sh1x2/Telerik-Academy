@@ -1,0 +1,5 @@
+Sumblime Text 3 - Main for web development with JavaScript,NodeJS,PHP,Python.
+Notepad++ - For quick editing text files or programming with some web languages.
+AptanaStudio - Development for PHP and Javascript.
+Brackets - Another web developement IDE with live page reload.
+
