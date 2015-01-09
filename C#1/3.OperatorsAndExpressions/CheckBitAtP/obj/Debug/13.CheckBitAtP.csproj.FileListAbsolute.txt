@@ -1,0 +1,13 @@
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\13.CheckBitAtP\bin\Debug\13.CheckBitAtP.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\13.CheckBitAtP\bin\Debug\13.CheckBitAtP.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\13.CheckBitAtP\bin\Debug\13.CheckBitAtP.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\13.CheckBitAtP\obj\Debug\13.CheckBitAtP.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\13.CheckBitAtP\obj\Debug\13.CheckBitAtP.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\13.CheckBitAtP\bin\Debug\13.CheckBitAtP.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\13.CheckBitAtP\bin\Debug\13.CheckBitAtP.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\13.CheckBitAtP\bin\Debug\13.CheckBitAtP.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\13.CheckBitAtP\obj\Debug\13.CheckBitAtP.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\13.CheckBitAtP\obj\Debug\13.CheckBitAtP.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\CheckBitAtP\bin\Debug\13.CheckBitAtP.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\CheckBitAtP\obj\Debug\13.CheckBitAtP.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\CheckBitAtP\obj\Debug\13.CheckBitAtP.pdb

@@ -1,0 +1,10 @@
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\16.AdvancedBitExchange\bin\Debug\16.AdvancedBitExchange.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\16.AdvancedBitExchange\bin\Debug\16.AdvancedBitExchange.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\16.AdvancedBitExchange\bin\Debug\16.AdvancedBitExchange.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\16.AdvancedBitExchange\bin\Debug\16.AdvancedBitExchange.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\16.AdvancedBitExchange\obj\Debug\16.AdvancedBitExchange.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\16.AdvancedBitExchange\obj\Debug\16.AdvancedBitExchange.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\16.AdvancedBitExchange\obj\Debug\16.AdvancedBitExchange.csprojResolveAssemblyReference.cache
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\AdvancedBitExchange\bin\Debug\16.AdvancedBitExchange.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\AdvancedBitExchange\obj\Debug\16.AdvancedBitExchange.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\AdvancedBitExchange\obj\Debug\16.AdvancedBitExchange.pdb

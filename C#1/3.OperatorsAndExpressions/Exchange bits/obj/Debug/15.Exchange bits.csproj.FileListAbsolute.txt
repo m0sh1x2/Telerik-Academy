@@ -1,0 +1,13 @@
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\14.Exchange bits\bin\Debug\14.Exchange bits.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\14.Exchange bits\bin\Debug\14.Exchange bits.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\14.Exchange bits\bin\Debug\14.Exchange bits.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\14.Exchange bits\obj\Debug\14.Exchange bits.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\14.Exchange bits\obj\Debug\14.Exchange bits.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\14.Exchange bits\bin\Debug\14.Exchange bits.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\14.Exchange bits\obj\Debug\14.Exchange bits.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\14.Exchange bits\obj\Debug\14.Exchange bits.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\14.Exchange bits\bin\Debug\14.Exchange bits.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\14.Exchange bits\bin\Debug\14.Exchange bits.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\Exchange bits\bin\Debug\14.Exchange bits.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\Exchange bits\obj\Debug\14.Exchange bits.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\Exchange bits\obj\Debug\14.Exchange bits.pdb

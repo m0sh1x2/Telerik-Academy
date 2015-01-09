@@ -1,0 +1,14 @@
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\07.PointInCircle\bin\Debug\07.PointInCircle.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\07.PointInCircle\bin\Debug\07.PointInCircle.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\07.PointInCircle\bin\Debug\07.PointInCircle.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\07.PointInCircle\obj\Debug\07.PointInCircle.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\07.PointInCircle\obj\Debug\07.PointInCircle.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\07.PointInCircle\bin\Debug\07.PointInCircle.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\07.PointInCircle\obj\Debug\07.PointInCircle.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\07.PointInCircle\obj\Debug\07.PointInCircle.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\07.PointInCircle\bin\Debug\07.PointInCircle.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\07.PointInCircle\bin\Debug\07.PointInCircle.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\07.PointInCircle\obj\Debug\07.PointInCircle.csprojResolveAssemblyReference.cache
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\PointInCircle\bin\Debug\07.PointInCircle.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\PointInCircle\obj\Debug\07.PointInCircle.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\PointInCircle\obj\Debug\07.PointInCircle.pdb

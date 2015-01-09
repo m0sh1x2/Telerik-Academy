@@ -1,0 +1,1 @@
+c:\users\krasimir\documents\visual studio 2012\Projects\OperatorsAndExpressions\3.RectangelAreaWidthAndHeight\bin\Debug\3.RectangelAreaWidthAndHeight.exe.config

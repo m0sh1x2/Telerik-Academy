@@ -1,0 +1,13 @@
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\test\bin\Debug\test.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\test\bin\Debug\test.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\test\bin\Debug\test.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\test\obj\Debug\test.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\test\obj\Debug\test.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\test\bin\Debug\test.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\test\obj\Debug\test.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\test\obj\Debug\test.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\test\bin\Debug\test.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\test\bin\Debug\test.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\test\bin\Debug\test.exe.CodeAnalysisLog.xml
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\test\bin\Debug\test.exe.lastcodeanalysissucceeded

@@ -1,0 +1,6 @@
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.Bit at position P\bin\Debug\10.Bit at position P.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.Bit at position P\bin\Debug\10.Bit at position P.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.Bit at position P\bin\Debug\10.Bit at position P.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.Bit at position P\obj\Debug\10.Bit at position P.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.Bit at position P\obj\Debug\10.Bit at position P.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.Bit at position P\obj\Debug\10.Bit at position P.csprojResolveAssemblyReference.cache

@@ -1,0 +1,15 @@
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.CircleAndRect\bin\Debug\10.CircleAndRect.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.CircleAndRect\bin\Debug\10.CircleAndRect.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.CircleAndRect\bin\Debug\10.CircleAndRect.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.CircleAndRect\obj\Debug\10.CircleAndRect.csprojResolveAssemblyReference.cache
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.CircleAndRect\obj\Debug\10.CircleAndRect.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.CircleAndRect\obj\Debug\10.CircleAndRect.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.CircleAndRect\bin\Debug\10.CircleAndRect.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.CircleAndRect\obj\Debug\10.CircleAndRect.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.CircleAndRect\obj\Debug\10.CircleAndRect.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.CircleAndRect\bin\Debug\10.CircleAndRect.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.CircleAndRect\bin\Debug\10.CircleAndRect.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\10.CircleAndRect\obj\Debug\10.CircleAndRect.csprojResolveAssemblyReference.cache
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\CircleAndRect\bin\Debug\10.CircleAndRect.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\CircleAndRect\obj\Debug\10.CircleAndRect.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\CircleAndRect\obj\Debug\10.CircleAndRect.pdb

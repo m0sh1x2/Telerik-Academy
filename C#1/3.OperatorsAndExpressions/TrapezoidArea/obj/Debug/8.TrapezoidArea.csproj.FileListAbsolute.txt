@@ -1,0 +1,12 @@
+C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\8.TrapezoidArea\bin\Debug\8.TrapezoidArea.exe.config
+C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\8.TrapezoidArea\bin\Debug\8.TrapezoidArea.exe
+C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\8.TrapezoidArea\bin\Debug\8.TrapezoidArea.pdb
+C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\8.TrapezoidArea\obj\Debug\8.TrapezoidArea.csprojResolveAssemblyReference.cache
+C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\8.TrapezoidArea\obj\Debug\8.TrapezoidArea.exe
+C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\8.TrapezoidArea\obj\Debug\8.TrapezoidArea.pdb
+C:\Users\JuMPeR\Google Диск\C# Fundamentals Part1\Homeworks\OperatorsAndExpressions\8.TrapezoidArea\bin\Debug\8.TrapezoidArea.exe.config
+C:\Users\JuMPeR\Google Диск\C# Fundamentals Part1\Homeworks\OperatorsAndExpressions\8.TrapezoidArea\obj\Debug\8.TrapezoidArea.exe
+C:\Users\JuMPeR\Google Диск\C# Fundamentals Part1\Homeworks\OperatorsAndExpressions\8.TrapezoidArea\obj\Debug\8.TrapezoidArea.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\8.TrapezoidArea\bin\Debug\8.TrapezoidArea.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\8.TrapezoidArea\obj\Debug\8.TrapezoidArea.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\8.TrapezoidArea\obj\Debug\8.TrapezoidArea.pdb

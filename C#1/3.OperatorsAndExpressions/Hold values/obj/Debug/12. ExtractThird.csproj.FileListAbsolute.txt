@@ -1,0 +1,5 @@
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\12. Hold values\bin\Debug\_12.Hold_values.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\12. Hold values\bin\Debug\_12.Hold_values.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\12. Hold values\bin\Debug\_12.Hold_values.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\12. Hold values\obj\Debug\_12.Hold_values.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\12. Hold values\obj\Debug\_12.Hold_values.pdb

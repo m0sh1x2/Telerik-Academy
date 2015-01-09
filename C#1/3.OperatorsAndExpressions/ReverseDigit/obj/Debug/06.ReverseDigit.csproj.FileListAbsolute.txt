@@ -1,0 +1,15 @@
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\06.ReverseDigit\bin\Debug\06.ReverseDigit.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\06.ReverseDigit\bin\Debug\06.ReverseDigit.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\06.ReverseDigit\bin\Debug\06.ReverseDigit.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\06.ReverseDigit\obj\Debug\06.ReverseDigit.csprojResolveAssemblyReference.cache
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\06.ReverseDigit\obj\Debug\06.ReverseDigit.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\06.ReverseDigit\obj\Debug\06.ReverseDigit.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\06.ReverseDigit\bin\Debug\06.ReverseDigit.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\06.ReverseDigit\obj\Debug\06.ReverseDigit.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\06.ReverseDigit\obj\Debug\06.ReverseDigit.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\06.ReverseDigit\bin\Debug\06.ReverseDigit.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\06.ReverseDigit\bin\Debug\06.ReverseDigit.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\06.ReverseDigit\obj\Debug\06.ReverseDigit.csprojResolveAssemblyReference.cache
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\ReverseDigit\bin\Debug\06.ReverseDigit.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\ReverseDigit\obj\Debug\06.ReverseDigit.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\ReverseDigit\obj\Debug\06.ReverseDigit.pdb

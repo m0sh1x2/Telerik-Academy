@@ -1,0 +1,12 @@
+C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\5.FindThirdBit\bin\Debug\5.FindThirdBit.exe.config
+C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\5.FindThirdBit\bin\Debug\5.FindThirdBit.exe
+C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\5.FindThirdBit\bin\Debug\5.FindThirdBit.pdb
+C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\5.FindThirdBit\obj\Debug\5.FindThirdBit.exe
+C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\5.FindThirdBit\obj\Debug\5.FindThirdBit.pdb
+C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\5.FindThirdBit\obj\Debug\5.FindThirdBit.csprojResolveAssemblyReference.cache
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\5.FindThirdBit\bin\Debug\5.FindThirdBit.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\5.FindThirdBit\obj\Debug\5.FindThirdBit.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\5.FindThirdBit\obj\Debug\5.FindThirdBit.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\FindThirdBit\bin\Debug\5.FindThirdBit.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\FindThirdBit\obj\Debug\5.FindThirdBit.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\FindThirdBit\obj\Debug\5.FindThirdBit.pdb

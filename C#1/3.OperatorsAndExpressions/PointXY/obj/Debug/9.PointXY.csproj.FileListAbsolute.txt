@@ -1,0 +1,2 @@
+C:\Users\JuMPeR\Google Диск\C# Fundamentals Part1\Homeworks\OperatorsAndExpressions\9.PointXY\bin\Debug\9.PointXY.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\9.PointXY\bin\Debug\9.PointXY.exe.config
