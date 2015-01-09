@@ -1,5 +1,0 @@
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\16.PrintLongSequence\bin\Debug\16.PrintLongSequence.exe.config
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\16.PrintLongSequence\bin\Debug\16.PrintLongSequence.exe
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\16.PrintLongSequence\bin\Debug\16.PrintLongSequence.pdb
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\16.PrintLongSequence\obj\Debug\16.PrintLongSequence.exe
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\16.PrintLongSequence\obj\Debug\16.PrintLongSequence.pdb

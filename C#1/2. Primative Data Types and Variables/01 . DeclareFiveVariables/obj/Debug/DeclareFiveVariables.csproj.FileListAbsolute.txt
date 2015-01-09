@@ -1,6 +1,0 @@
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\DeclareFiveVariables\bin\Debug\DeclareFiveVariables.exe.config
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\DeclareFiveVariables\bin\Debug\DeclareFiveVariables.exe
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\DeclareFiveVariables\bin\Debug\DeclareFiveVariables.pdb
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\DeclareFiveVariables\obj\Debug\DeclareFiveVariables.csprojResolveAssemblyReference.cache
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\DeclareFiveVariables\obj\Debug\DeclareFiveVariables.exe
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\DeclareFiveVariables\obj\Debug\DeclareFiveVariables.pdb

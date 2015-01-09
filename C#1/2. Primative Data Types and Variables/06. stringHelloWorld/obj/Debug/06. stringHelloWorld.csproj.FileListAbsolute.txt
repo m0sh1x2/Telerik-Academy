@@ -1,3 +1,0 @@
-C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\stringHelloWorld\bin\Debug\stringHelloWorld.exe.config
-C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\stringHelloWorld\obj\Debug\stringHelloWorld.exe
-C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\stringHelloWorld\obj\Debug\stringHelloWorld.pdb

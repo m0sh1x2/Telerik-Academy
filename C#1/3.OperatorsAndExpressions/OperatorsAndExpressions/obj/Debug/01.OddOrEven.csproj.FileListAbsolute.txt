@@ -1,8 +1,0 @@
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\OperatorsAndExpressions\bin\Debug\OperatorsAndExpressions.exe.config
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\OperatorsAndExpressions\obj\Debug\OperatorsAndExpressions.exe
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\OperatorsAndExpressions\obj\Debug\OperatorsAndExpressions.pdb
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\OperatorsAndExpressions\bin\Debug\OperatorsAndExpressions.exe
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\OperatorsAndExpressions\bin\Debug\OperatorsAndExpressions.pdb
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\OperatorsAndExpressions\obj\Debug\01.OddOrEven.csprojResolveAssemblyReference.cache
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\OperatorsAndExpressions\bin\Debug\OperatorsAndExpressions.exe.CodeAnalysisLog.xml
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\OperatorsAndExpressions\bin\Debug\OperatorsAndExpressions.exe.lastcodeanalysissucceeded

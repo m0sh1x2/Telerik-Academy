@@ -1,8 +1,0 @@
-C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\IsPrime\bin\Debug\IsPrime.exe.config
-C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\IsPrime\bin\Debug\IsPrime.exe
-C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\IsPrime\bin\Debug\IsPrime.pdb
-C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\IsPrime\obj\Debug\IsPrime.exe
-C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\IsPrime\obj\Debug\IsPrime.pdb
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\IsPrime\bin\Debug\IsPrime.exe.config
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\IsPrime\obj\Debug\IsPrime.exe
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\IsPrime\obj\Debug\IsPrime.pdb

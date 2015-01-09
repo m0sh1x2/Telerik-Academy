@@ -1,3 +1,0 @@
-C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\04.UnicodeChar\bin\Debug\04.UnicodeChar.exe.config
-C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\04.UnicodeChar\obj\Debug\04.UnicodeChar.exe
-C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\04.UnicodeChar\obj\Debug\04.UnicodeChar.pdb

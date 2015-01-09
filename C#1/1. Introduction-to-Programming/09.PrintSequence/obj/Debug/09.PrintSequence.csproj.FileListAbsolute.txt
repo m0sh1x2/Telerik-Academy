@@ -1,5 +1,0 @@
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\09.PrintSequence\bin\Debug\09.PrintSequence.exe.config
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\09.PrintSequence\bin\Debug\09.PrintSequence.exe
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\09.PrintSequence\bin\Debug\09.PrintSequence.pdb
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\09.PrintSequence\obj\Debug\09.PrintSequence.exe
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\09.PrintSequence\obj\Debug\09.PrintSequence.pdb

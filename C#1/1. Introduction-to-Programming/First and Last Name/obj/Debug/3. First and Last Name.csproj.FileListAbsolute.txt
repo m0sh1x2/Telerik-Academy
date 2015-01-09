@@ -1,6 +1,0 @@
-C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\1. Introduction-to-Programming\First and Last Name\bin\Debug\First and Last Name.exe.config
-C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\1. Introduction-to-Programming\First and Last Name\obj\Debug\First and Last Name.exe
-C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\1. Introduction-to-Programming\First and Last Name\obj\Debug\First and Last Name.pdb
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\First and Last Name\bin\Debug\First and Last Name.exe.config
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\First and Last Name\obj\Debug\First and Last Name.exe
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\First and Last Name\obj\Debug\First and Last Name.pdb

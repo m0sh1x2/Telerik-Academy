@@ -1,9 +1,0 @@
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\3.RectangelAreaWidthAndHeight\bin\Debug\3.RectangelAreaWidthAndHeight.exe.config
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\3.RectangelAreaWidthAndHeight\obj\Debug\3.RectangelAreaWidthAndHeight.exe
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\3.RectangelAreaWidthAndHeight\obj\Debug\3.RectangelAreaWidthAndHeight.pdb
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\3.RectangelAreaWidthAndHeight\bin\Debug\3.RectangelAreaWidthAndHeight.exe
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\3.RectangelAreaWidthAndHeight\bin\Debug\3.RectangelAreaWidthAndHeight.pdb
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\3.RectangelAreaWidthAndHeight\obj\Debug\04.RectangleAreaWidthAndHeight.csprojResolveAssemblyReference.cache
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\RectangelAreaWidthAndHeight\bin\Debug\3.RectangelAreaWidthAndHeight.exe.config
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\RectangelAreaWidthAndHeight\obj\Debug\3.RectangelAreaWidthAndHeight.exe
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\RectangelAreaWidthAndHeight\obj\Debug\3.RectangelAreaWidthAndHeight.pdb

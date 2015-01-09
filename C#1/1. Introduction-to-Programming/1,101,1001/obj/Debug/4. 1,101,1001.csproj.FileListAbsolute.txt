@@ -1,3 +1,0 @@
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\1,101,1001\bin\Debug\1,101,1001.exe.config
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\1,101,1001\obj\Debug\1,101,1001.exe
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\1,101,1001\obj\Debug\1,101,1001.pdb

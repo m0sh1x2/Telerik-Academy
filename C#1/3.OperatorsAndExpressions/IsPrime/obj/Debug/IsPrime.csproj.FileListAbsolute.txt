@@ -1,1 +1,0 @@
-C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\IsPrime\bin\Debug\IsPrime.exe.config

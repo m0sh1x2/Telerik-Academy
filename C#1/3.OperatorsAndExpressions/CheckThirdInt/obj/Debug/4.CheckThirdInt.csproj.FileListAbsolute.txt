@@ -1,9 +1,0 @@
-C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\4.CheckThirdInt\bin\Debug\4.CheckThirdInt.exe.config
-C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\4.CheckThirdInt\bin\Debug\4.CheckThirdInt.exe
-C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\4.CheckThirdInt\bin\Debug\4.CheckThirdInt.pdb
-C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\4.CheckThirdInt\obj\Debug\4.CheckThirdInt.exe
-C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\4.CheckThirdInt\obj\Debug\4.CheckThirdInt.pdb
-C:\Users\krasimir\Documents\Visual Studio 2012\Projects\OperatorsAndExpressions\4.CheckThirdInt\obj\Debug\4.CheckThirdInt.csprojResolveAssemblyReference.cache
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\4.CheckThirdInt\bin\Debug\4.CheckThirdInt.exe.config
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\4.CheckThirdInt\obj\Debug\4.CheckThirdInt.exe
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\4.CheckThirdInt\obj\Debug\4.CheckThirdInt.pdb

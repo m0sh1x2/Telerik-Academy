@@ -1,6 +1,0 @@
-c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\Current Date and Time\bin\Debug\Current Date and Time.exe.config
-c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\Current Date and Time\bin\Debug\Current Date and Time.exe
-c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\Current Date and Time\bin\Debug\Current Date and Time.pdb
-c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\Current Date and Time\obj\Debug\4. Current Date and Time.csprojResolveAssemblyReference.cache
-c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\Current Date and Time\obj\Debug\Current Date and Time.exe
-c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\Current Date and Time\obj\Debug\Current Date and Time.pdb

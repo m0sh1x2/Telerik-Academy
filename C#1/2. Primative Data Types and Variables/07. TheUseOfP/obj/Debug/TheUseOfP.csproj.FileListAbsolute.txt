@@ -1,5 +1,0 @@
-C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\2. Primative Data Types and Variables\TheUseOfP\bin\Debug\TheUseOfP.exe.config
-C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\2. Primative Data Types and Variables\TheUseOfP\bin\Debug\TheUseOfP.exe
-C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\2. Primative Data Types and Variables\TheUseOfP\bin\Debug\TheUseOfP.pdb
-C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\2. Primative Data Types and Variables\TheUseOfP\obj\Debug\TheUseOfP.exe
-C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\2. Primative Data Types and Variables\TheUseOfP\obj\Debug\TheUseOfP.pdb

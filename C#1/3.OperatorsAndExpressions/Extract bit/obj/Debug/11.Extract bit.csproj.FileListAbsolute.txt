@@ -1,5 +1,0 @@
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\11.Extract bit\bin\Debug\11.Extract bit.exe.config
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\11.Extract bit\bin\Debug\11.Extract bit.exe
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\11.Extract bit\bin\Debug\11.Extract bit.pdb
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\11.Extract bit\obj\Debug\11.Extract bit.exe
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\3.OperatorsAndExpressions\11.Extract bit\obj\Debug\11.Extract bit.pdb

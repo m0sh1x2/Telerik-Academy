@@ -1,3 +1,0 @@
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\Current Date and Time\bin\Debug\Current Date and Time.exe.config
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\Current Date and Time\obj\Debug\Current Date and Time.exe
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\Current Date and Time\obj\Debug\Current Date and Time.pdb
