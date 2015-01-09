@@ -1,0 +1,15 @@
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\DeclareFiveVariables\bin\Debug\DeclareFiveVariables.exe.config
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\DeclareFiveVariables\obj\Debug\DeclareFiveVariables.exe
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\DeclareFiveVariables\obj\Debug\DeclareFiveVariables.pdb
+C:\Users\JuMPeR\Google Диск\2. Primative Data Types and Variables\DeclareFiveVariables\bin\Debug\DeclareFiveVariables.exe.config
+C:\Users\JuMPeR\Google Диск\2. Primative Data Types and Variables\DeclareFiveVariables\obj\Debug\DeclareFiveVariables.exe
+C:\Users\JuMPeR\Google Диск\2. Primative Data Types and Variables\DeclareFiveVariables\obj\Debug\DeclareFiveVariables.pdb
+C:\Users\JuMPeR\Google Drive\2. Primative Data Types and Variables\DeclareFiveVariables\bin\Debug\DeclareFiveVariables.exe.config
+C:\Users\JuMPeR\Google Drive\2. Primative Data Types and Variables\DeclareFiveVariables\obj\Debug\DeclareFiveVariables.exe
+C:\Users\JuMPeR\Google Drive\2. Primative Data Types and Variables\DeclareFiveVariables\obj\Debug\DeclareFiveVariables.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\DeclareFiveVariables\bin\Debug\DeclareFiveVariables.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\DeclareFiveVariables\obj\Debug\DeclareFiveVariables.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\DeclareFiveVariables\obj\Debug\DeclareFiveVariables.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\DeclareFiveVariables\obj\Debug\1 . DeclareFiveVariables.csprojResolveAssemblyReference.cache
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\DeclareFiveVariables\bin\Debug\DeclareFiveVariables.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\DeclareFiveVariables\bin\Debug\DeclareFiveVariables.pdb

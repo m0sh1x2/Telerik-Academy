@@ -1,0 +1,6 @@
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\Char\bin\Debug\Char.exe.config
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\Char\bin\Debug\Char.exe
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\Char\bin\Debug\Char.pdb
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\Char\obj\Debug\Char.exe
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\Char\obj\Debug\Char.pdb
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\Char\obj\Debug\Char.csprojResolveAssemblyReference.cache

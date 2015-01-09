@@ -1,0 +1,6 @@
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\Square of 12345\bin\Debug\Square of 12345.exe.config
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\Square of 12345\bin\Debug\Square of 12345.exe
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\Square of 12345\bin\Debug\Square of 12345.pdb
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\Square of 12345\obj\Debug\Square of 12345.csprojResolveAssemblyReference.cache
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\Square of 12345\obj\Debug\Square of 12345.exe
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\Square of 12345\obj\Debug\Square of 12345.pdb

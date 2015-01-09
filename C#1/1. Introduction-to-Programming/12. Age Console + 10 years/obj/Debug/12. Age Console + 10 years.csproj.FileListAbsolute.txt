@@ -1,0 +1,8 @@
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\1. Introduction-to-Programming\12. Age Console + 10 years\bin\Debug\_12.Age_Console___10_years.exe.config
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\1. Introduction-to-Programming\12. Age Console + 10 years\bin\Debug\_12.Age_Console___10_years.exe
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\1. Introduction-to-Programming\12. Age Console + 10 years\bin\Debug\_12.Age_Console___10_years.pdb
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\1. Introduction-to-Programming\12. Age Console + 10 years\obj\Debug\_12.Age_Console___10_years.exe
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\1. Introduction-to-Programming\12. Age Console + 10 years\obj\Debug\_12.Age_Console___10_years.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\12. Age Console + 10 years\bin\Debug\_12.Age_Console___10_years.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\12. Age Console + 10 years\obj\Debug\_12.Age_Console___10_years.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\12. Age Console + 10 years\obj\Debug\_12.Age_Console___10_years.pdb

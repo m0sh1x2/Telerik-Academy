@@ -1,0 +1,6 @@
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\HelloCSharp\bin\Debug\HelloCSharp.exe.config
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\HelloCSharp\obj\Debug\HelloCSharp.csprojResolveAssemblyReference.cache
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\HelloCSharp\bin\Debug\HelloCSharp.exe
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\HelloCSharp\bin\Debug\HelloCSharp.pdb
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\HelloCSharp\obj\Debug\HelloCSharp.exe
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\HelloCSharp\obj\Debug\HelloCSharp.pdb

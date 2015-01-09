@@ -1,0 +1,6 @@
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\TelerikLiveTesting\bin\Debug\TelerikLiveTesting.exe.config
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\TelerikLiveTesting\bin\Debug\TelerikLiveTesting.exe
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\TelerikLiveTesting\bin\Debug\TelerikLiveTesting.pdb
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\TelerikLiveTesting\obj\Debug\TelerikLiveTesting.csprojResolveAssemblyReference.cache
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\TelerikLiveTesting\obj\Debug\TelerikLiveTesting.exe
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\TelerikLiveTesting\obj\Debug\TelerikLiveTesting.pdb

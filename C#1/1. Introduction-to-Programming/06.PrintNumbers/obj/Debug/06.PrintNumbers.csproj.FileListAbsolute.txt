@@ -1,0 +1,6 @@
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\06.PrintNumbers\bin\Debug\06.PrintNumbers.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\06.PrintNumbers\bin\Debug\06.PrintNumbers.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\06.PrintNumbers\bin\Debug\06.PrintNumbers.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\06.PrintNumbers\obj\Debug\06.PrintNumbers.csprojResolveAssemblyReference.cache
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\06.PrintNumbers\obj\Debug\06.PrintNumbers.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\06.PrintNumbers\obj\Debug\06.PrintNumbers.pdb

@@ -1,0 +1,5 @@
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\03.VarInHex\bin\Debug\03.VarInHex.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\03.VarInHex\bin\Debug\03.VarInHex.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\03.VarInHex\bin\Debug\03.VarInHex.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\03.VarInHex\obj\Debug\03.VarInHex.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\03.VarInHex\obj\Debug\03.VarInHex.pdb

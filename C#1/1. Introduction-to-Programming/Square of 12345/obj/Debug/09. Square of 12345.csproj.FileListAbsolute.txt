@@ -1,0 +1,3 @@
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\Square of 12345\bin\Debug\Square of 12345.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\Square of 12345\obj\Debug\Square of 12345.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\Square of 12345\obj\Debug\Square of 12345.pdb

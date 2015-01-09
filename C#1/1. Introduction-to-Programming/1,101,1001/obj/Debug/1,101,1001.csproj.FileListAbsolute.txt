@@ -1,0 +1,5 @@
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\1,101,1001\bin\Debug\1,101,1001.exe.config
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\1,101,1001\bin\Debug\1,101,1001.exe
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\1,101,1001\bin\Debug\1,101,1001.pdb
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\1,101,1001\obj\Debug\1,101,1001.exe
+c:\users\jumper\documents\visual studio 2012\Projects\1. Introduction-to-Programming\1,101,1001\obj\Debug\1,101,1001.pdb

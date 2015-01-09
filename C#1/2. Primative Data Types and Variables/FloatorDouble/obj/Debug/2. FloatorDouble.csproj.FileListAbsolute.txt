@@ -1,0 +1,8 @@
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\FloatorDouble\bin\Debug\FloatorDouble.exe.config
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\FloatorDouble\bin\Debug\FloatorDouble.exe
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\FloatorDouble\bin\Debug\FloatorDouble.pdb
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\FloatorDouble\obj\Debug\FloatorDouble.exe
+c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\FloatorDouble\obj\Debug\FloatorDouble.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\FloatorDouble\bin\Debug\FloatorDouble.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\FloatorDouble\obj\Debug\FloatorDouble.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\FloatorDouble\obj\Debug\FloatorDouble.pdb

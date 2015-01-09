@@ -1,0 +1,9 @@
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\1. Introduction-to-Programming\2,-3,4,-5,6\bin\Debug\2,-3,4,-5,6.exe.config
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\1. Introduction-to-Programming\2,-3,4,-5,6\obj\Debug\2,-3,4,-5,6.exe
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\1. Introduction-to-Programming\2,-3,4,-5,6\obj\Debug\2,-3,4,-5,6.pdb
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\1. Introduction-to-Programming\2,-3,4,-5,6\bin\Debug\2,-3,4,-5,6.exe
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\1. Introduction-to-Programming\2,-3,4,-5,6\bin\Debug\2,-3,4,-5,6.pdb
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\1. Introduction-to-Programming\2,-3,4,-5,6\obj\Debug\10. 2,-3,4,-5,6.csprojResolveAssemblyReference.cache
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\2,-3,4,-5,6\bin\Debug\2,-3,4,-5,6.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\2,-3,4,-5,6\obj\Debug\2,-3,4,-5,6.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\1. Introduction-to-Programming\2,-3,4,-5,6\obj\Debug\2,-3,4,-5,6.pdb
