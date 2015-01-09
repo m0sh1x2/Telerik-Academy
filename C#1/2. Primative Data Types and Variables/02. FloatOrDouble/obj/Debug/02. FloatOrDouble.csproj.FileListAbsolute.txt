@@ -1,0 +1,9 @@
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\FloatorDouble\bin\Debug\FloatorDouble.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\FloatorDouble\obj\Debug\FloatorDouble.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\FloatorDouble\obj\Debug\FloatorDouble.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\FloatorDouble\bin\Debug\FloatorDouble.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\FloatorDouble\bin\Debug\FloatorDouble.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\FloatorDouble\obj\Debug\02. FloatOrDouble.csprojResolveAssemblyReference.cache
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\FloatorDouble\bin\Debug\FloatorDouble.exe.config
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\FloatorDouble\obj\Debug\FloatorDouble.exe
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\FloatorDouble\obj\Debug\FloatorDouble.pdb

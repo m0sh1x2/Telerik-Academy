@@ -1,0 +1,6 @@
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\2. Primative Data Types and Variables\isFemale\bin\Debug\isFemale.exe.config
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\2. Primative Data Types and Variables\isFemale\obj\Debug\isFemale.csprojResolveAssemblyReference.cache
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\2. Primative Data Types and Variables\isFemale\bin\Debug\isFemale.exe
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\2. Primative Data Types and Variables\isFemale\bin\Debug\isFemale.pdb
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\2. Primative Data Types and Variables\isFemale\obj\Debug\isFemale.exe
+C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\2. Primative Data Types and Variables\isFemale\obj\Debug\isFemale.pdb

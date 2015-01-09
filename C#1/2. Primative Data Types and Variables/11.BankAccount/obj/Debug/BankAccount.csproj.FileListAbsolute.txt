@@ -1,0 +1,5 @@
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\BankAccount\bin\Debug\BankAccount.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\BankAccount\bin\Debug\BankAccount.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\BankAccount\bin\Debug\BankAccount.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\BankAccount\obj\Debug\BankAccount.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\BankAccount\obj\Debug\BankAccount.pdb

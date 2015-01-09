@@ -1,0 +1,15 @@
+C:\Users\JuMPeR\Google Диск\2. Primative Data Types and Variables\12. ASCll\bin\Debug\_12.ASCll.exe.config
+C:\Users\JuMPeR\Google Диск\2. Primative Data Types and Variables\12. ASCll\bin\Debug\_12.ASCll.exe
+C:\Users\JuMPeR\Google Диск\2. Primative Data Types and Variables\12. ASCll\bin\Debug\_12.ASCll.pdb
+C:\Users\JuMPeR\Google Диск\2. Primative Data Types and Variables\12. ASCll\obj\Debug\_12.ASCll.exe
+C:\Users\JuMPeR\Google Диск\2. Primative Data Types and Variables\12. ASCll\obj\Debug\_12.ASCll.pdb
+C:\Users\JuMPeR\Google Диск\2. Primative Data Types and Variables\12. ASCll\obj\Debug\12. ASCll.csprojResolveAssemblyReference.cache
+C:\Users\JuMPeR\Google Drive\2. Primative Data Types and Variables\12. ASCll\bin\Debug\_12.ASCll.exe.config
+C:\Users\JuMPeR\Google Drive\2. Primative Data Types and Variables\12. ASCll\obj\Debug\_12.ASCll.exe
+C:\Users\JuMPeR\Google Drive\2. Primative Data Types and Variables\12. ASCll\obj\Debug\_12.ASCll.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\12. ASCll\bin\Debug\_12.ASCll.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\12. ASCll\obj\Debug\_12.ASCll.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\12. ASCll\obj\Debug\_12.ASCll.pdb
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\12. ASCll\obj\Debug\12. ASCll.csprojResolveAssemblyReference.cache
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\12. ASCll\bin\Debug\_12.ASCll.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\12. ASCll\bin\Debug\_12.ASCll.pdb

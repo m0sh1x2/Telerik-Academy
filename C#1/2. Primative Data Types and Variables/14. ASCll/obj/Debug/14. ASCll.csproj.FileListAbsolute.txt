@@ -1,0 +1,9 @@
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\12. ASCll\bin\Debug\_12.ASCll.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\12. ASCll\obj\Debug\_12.ASCll.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\12. ASCll\obj\Debug\_12.ASCll.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\12. ASCll\bin\Debug\_12.ASCll.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\12. ASCll\obj\Debug\_12.ASCll.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\12. ASCll\obj\Debug\_12.ASCll.pdb
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\12. ASCll\bin\Debug\_12.ASCll.exe.config
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\12. ASCll\obj\Debug\_12.ASCll.exe
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\12. ASCll\obj\Debug\_12.ASCll.pdb

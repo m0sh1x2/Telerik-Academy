@@ -1,0 +1,6 @@
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\isFemale\bin\Debug\isFemale.exe.config
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\isFemale\obj\Debug\isFemale.exe
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\isFemale\obj\Debug\isFemale.pdb
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\05. isFemale\bin\Debug\isFemale.exe.config
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\05. isFemale\obj\Debug\isFemale.exe
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\05. isFemale\obj\Debug\isFemale.pdb

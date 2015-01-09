@@ -1,0 +1,3 @@
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\BankAccount\bin\Debug\BankAccount.exe.config
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\BankAccount\obj\Debug\BankAccount.exe
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\BankAccount\obj\Debug\BankAccount.pdb

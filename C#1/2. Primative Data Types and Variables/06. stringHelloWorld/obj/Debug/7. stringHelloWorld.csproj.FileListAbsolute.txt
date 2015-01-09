@@ -1,0 +1,3 @@
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\stringHelloWorld\bin\Debug\stringHelloWorld.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\stringHelloWorld\obj\Debug\stringHelloWorld.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\stringHelloWorld\obj\Debug\stringHelloWorld.pdb

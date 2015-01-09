@@ -1,0 +1,9 @@
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\13.AssignNull\bin\Debug\13.AssignNull.exe.config
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\13.AssignNull\obj\Debug\13.AssignNull.exe
+C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\13.AssignNull\obj\Debug\13.AssignNull.pdb
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\13.AssignNull\bin\Debug\13.AssignNull.exe.config
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\13.AssignNull\obj\Debug\13.AssignNull.exe
+C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\13.AssignNull\obj\Debug\13.AssignNull.pdb
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\13.AssignNull\bin\Debug\13.AssignNull.exe.config
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\13.AssignNull\obj\Debug\13.AssignNull.exe
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\13.AssignNull\obj\Debug\13.AssignNull.pdb
