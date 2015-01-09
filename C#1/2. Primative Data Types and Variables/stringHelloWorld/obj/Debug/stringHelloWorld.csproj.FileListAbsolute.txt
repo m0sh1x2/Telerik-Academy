@@ -1,5 +1,0 @@
-C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\2. Primative Data Types and Variables\stringHelloWorld\bin\Debug\stringHelloWorld.exe.config
-C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\2. Primative Data Types and Variables\stringHelloWorld\bin\Debug\stringHelloWorld.exe
-C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\2. Primative Data Types and Variables\stringHelloWorld\bin\Debug\stringHelloWorld.pdb
-C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\2. Primative Data Types and Variables\stringHelloWorld\obj\Debug\stringHelloWorld.exe
-C:\Users\JuMPeR\Documents\Visual Studio 2012\Projects\2. Primative Data Types and Variables\stringHelloWorld\obj\Debug\stringHelloWorld.pdb

@@ -1,3 +1,0 @@
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\9. Copyright©\bin\Debug\_9.Copyright_.exe.config
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\9. Copyright©\obj\Debug\_9.Copyright_.exe
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\9. Copyright©\obj\Debug\_9.Copyright_.pdb

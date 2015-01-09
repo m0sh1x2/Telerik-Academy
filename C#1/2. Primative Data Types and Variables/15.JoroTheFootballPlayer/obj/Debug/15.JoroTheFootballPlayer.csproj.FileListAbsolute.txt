@@ -1,9 +1,0 @@
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\15.JoroTheFootballPlayer\bin\Debug\15.JoroTheFootballPlayer.exe.config
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\15.JoroTheFootballPlayer\bin\Debug\15.JoroTheFootballPlayer.exe
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\15.JoroTheFootballPlayer\bin\Debug\15.JoroTheFootballPlayer.pdb
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\15.JoroTheFootballPlayer\obj\Debug\15.JoroTheFootballPlayer.csprojResolveAssemblyReference.cache
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\15.JoroTheFootballPlayer\obj\Debug\15.JoroTheFootballPlayer.exe
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\15.JoroTheFootballPlayer\obj\Debug\15.JoroTheFootballPlayer.pdb
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\15.JoroTheFootballPlayer\bin\Debug\15.JoroTheFootballPlayer.exe.config
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\15.JoroTheFootballPlayer\obj\Debug\15.JoroTheFootballPlayer.exe
-C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\15.JoroTheFootballPlayer\obj\Debug\15.JoroTheFootballPlayer.pdb

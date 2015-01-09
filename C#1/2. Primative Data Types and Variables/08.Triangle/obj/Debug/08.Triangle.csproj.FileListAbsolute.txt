@@ -1,5 +1,0 @@
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\08.Triangle\bin\Debug\08.Triangle.exe.config
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\08.Triangle\bin\Debug\08.Triangle.exe
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\08.Triangle\bin\Debug\08.Triangle.pdb
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\08.Triangle\obj\Debug\08.Triangle.exe
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\08.Triangle\obj\Debug\08.Triangle.pdb

@@ -1,5 +1,0 @@
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\FloatDoubleTest\bin\Debug\FloatDoubleTest.exe.config
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\FloatDoubleTest\bin\Debug\FloatDoubleTest.exe
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\FloatDoubleTest\bin\Debug\FloatDoubleTest.pdb
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\FloatDoubleTest\obj\Debug\FloatDoubleTest.exe
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\FloatDoubleTest\obj\Debug\FloatDoubleTest.pdb

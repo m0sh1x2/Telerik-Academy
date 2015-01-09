@@ -1,5 +1,0 @@
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\09.Exchange\bin\Debug\09.Exchange.exe.config
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\09.Exchange\bin\Debug\09.Exchange.exe
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\09.Exchange\bin\Debug\09.Exchange.pdb
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\09.Exchange\obj\Debug\09.Exchange.exe
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\09.Exchange\obj\Debug\09.Exchange.pdb

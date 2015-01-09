@@ -1,3 +1,0 @@
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\5. UniCode72\bin\Debug\_5.UniCode72.exe.config
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\5. UniCode72\obj\Debug\_5.UniCode72.exe
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\5. UniCode72\obj\Debug\_5.UniCode72.pdb

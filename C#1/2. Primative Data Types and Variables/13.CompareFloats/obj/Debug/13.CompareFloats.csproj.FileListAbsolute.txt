@@ -10,3 +10,6 @@ C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\2. Primative Data Types a
 C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\13.CompareFloats\bin\Debug\13.CompareFloats.exe
 C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\13.CompareFloats\bin\Debug\13.CompareFloats.pdb
 C:\Users\Slash\Desktop\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\13.CompareFloats\obj\Debug\13.CompareFloats.csprojResolveAssemblyReference.cache
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\13.CompareFloats\bin\Debug\13.CompareFloats.exe.config
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\13.CompareFloats\obj\Debug\13.CompareFloats.exe
+C:\Development\TelerikAcademy\C#1\2. Primative Data Types and Variables\13.CompareFloats\obj\Debug\13.CompareFloats.pdb

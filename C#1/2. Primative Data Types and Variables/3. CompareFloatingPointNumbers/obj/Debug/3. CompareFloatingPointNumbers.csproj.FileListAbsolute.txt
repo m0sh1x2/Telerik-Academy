@@ -1,9 +1,0 @@
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\3. CompareFloatingPointNumbers\bin\Debug\_3.CompareFloatingPointNumbers.exe.config
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\3. CompareFloatingPointNumbers\bin\Debug\_3.CompareFloatingPointNumbers.exe
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\3. CompareFloatingPointNumbers\bin\Debug\_3.CompareFloatingPointNumbers.pdb
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\3. CompareFloatingPointNumbers\obj\Debug\_3.CompareFloatingPointNumbers.exe
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\3. CompareFloatingPointNumbers\obj\Debug\_3.CompareFloatingPointNumbers.pdb
-c:\users\jumper\documents\visual studio 2012\Projects\2. Primative Data Types and Variables\3. CompareFloatingPointNumbers\obj\Debug\3. CompareFloatingPointNumbers.csprojResolveAssemblyReference.cache
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\3. CompareFloatingPointNumbers\bin\Debug\_3.CompareFloatingPointNumbers.exe.config
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\3. CompareFloatingPointNumbers\obj\Debug\_3.CompareFloatingPointNumbers.exe
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\3. CompareFloatingPointNumbers\obj\Debug\_3.CompareFloatingPointNumbers.pdb

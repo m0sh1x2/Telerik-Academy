@@ -1,3 +1,0 @@
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\TheUseOfP\bin\Debug\TheUseOfP.exe.config
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\TheUseOfP\obj\Debug\TheUseOfP.exe
-C:\Users\Slash\Google Drive\C# Fundamentals Part1\Homeworks\2. Primative Data Types and Variables\TheUseOfP\obj\Debug\TheUseOfP.pdb
