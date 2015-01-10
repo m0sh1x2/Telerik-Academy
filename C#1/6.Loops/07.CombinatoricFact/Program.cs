@@ -17,7 +17,7 @@ namespace _06.NFactDevidedByKFact
 
             BigInteger result = 0;
 
-            result = fact(n) / fact(k);
+            result = fact(n) / (fact(k) * (fact(n - k)));
 
             Console.WriteLine(result);
         }

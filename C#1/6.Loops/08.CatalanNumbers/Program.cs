@@ -5,20 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Numerics;
 
-namespace _06.NFactDevidedByKFact
+namespace _08.CatalanNumbers
 {
     class Program
     {
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            int k = int.Parse(Console.ReadLine());
 
-
-            BigInteger result = 0;
-
-            result = fact(n) / fact(k);
-
+            BigInteger result = fact(2 * n) / ((fact(n + 1)) * fact(n));
             Console.WriteLine(result);
         }
         private static BigInteger fact(int number)
