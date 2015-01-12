@@ -12,14 +12,18 @@ namespace _09.MatrixOfNumbers
         {
             int n = int.Parse(Console.ReadLine());
 
-            for (int row = 1; row <= n; row++)
+            int[,] matrix = new int[n, n];
+
+            for (int i = 1; i <= n; i++)
             {
-                for (int col = 1; col <= n; col++)
+                for (int j = i; j < i+n; j++)
                 {
-                    Console.Write(col);
+                    Console.Write("{0,-4}",j);
                 }
                 Console.WriteLine();
             }
+
+
             
         }
     }
