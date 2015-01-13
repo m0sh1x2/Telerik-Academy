@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.DecimalToHex", "14.Decim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.HexToDec", "15.HexToDec\15.HexToDec.csproj", "{231AE63F-6833-40E4-8B9C-562E7A2890D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.GDC", "16.GDC\16.GDC.csproj", "{28B198EB-6114-4016-A2FB-979752252C27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00.Testing", "00.Testing\00.Testing.csproj", "{BEE3A292-0E1D-41FD-8BE8-4EF06D06046D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{231AE63F-6833-40E4-8B9C-562E7A2890D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{231AE63F-6833-40E4-8B9C-562E7A2890D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{231AE63F-6833-40E4-8B9C-562E7A2890D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B198EB-6114-4016-A2FB-979752252C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B198EB-6114-4016-A2FB-979752252C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B198EB-6114-4016-A2FB-979752252C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B198EB-6114-4016-A2FB-979752252C27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE3A292-0E1D-41FD-8BE8-4EF06D06046D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE3A292-0E1D-41FD-8BE8-4EF06D06046D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE3A292-0E1D-41FD-8BE8-4EF06D06046D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE3A292-0E1D-41FD-8BE8-4EF06D06046D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
