@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.GDC", "16.GDC\16.GDC.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00.Testing", "00.Testing\00.Testing.csproj", "{BEE3A292-0E1D-41FD-8BE8-4EF06D06046D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.TrailingZeroesOfFactoriel", "18.TrailingZeroesOfFactoriel\18.TrailingZeroesOfFactoriel.csproj", "{EF39A676-7905-4629-98A0-7AC05C4158A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.SpiralMatrix", "19.SpiralMatrix\19.SpiralMatrix.csproj", "{9DF1907C-B694-4077-A3C6-A3CDAEC60EAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{BEE3A292-0E1D-41FD-8BE8-4EF06D06046D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEE3A292-0E1D-41FD-8BE8-4EF06D06046D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEE3A292-0E1D-41FD-8BE8-4EF06D06046D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF39A676-7905-4629-98A0-7AC05C4158A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF39A676-7905-4629-98A0-7AC05C4158A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF39A676-7905-4629-98A0-7AC05C4158A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF39A676-7905-4629-98A0-7AC05C4158A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF1907C-B694-4077-A3C6-A3CDAEC60EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF1907C-B694-4077-A3C6-A3CDAEC60EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF1907C-B694-4077-A3C6-A3CDAEC60EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF1907C-B694-4077-A3C6-A3CDAEC60EAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
