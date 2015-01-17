@@ -4,53 +4,82 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//First name
-//Last name
-//Age (0...100)
-//Gender (m or f)
-//Personal ID number (e.g. 8306112507)
-//Unique employee number (27560000…27569999)
-
 namespace EmployeeData
 {
     class EmployeeData
     {
         static void Main(string[] args)
         {
-            EmployeeBasicData companyStaff = new EmployeeBasicData();
-            Console.Write("Enter First Name here: ");
-            companyStaff.firstName = Console.ReadLine();
-            Console.Write("Enter Last Name here: ");
-            companyStaff.lastName = Console.ReadLine();
-            Console.Write("Enter Age here: ");
-            companyStaff.age = byte.Parse(Console.ReadLine());
-            Console.Write("Enter Gender here (m/f) ");
-            companyStaff.gender = char.Parse(Console.ReadLine());
-            Console.Write("Enter Personal Id here: ");
-            companyStaff.personalID = long.Parse(Console.ReadLine());
-            Console.Write("Enter Employee unique ID here: ");
-            companyStaff.uniqueEmployeeID = long.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
+
+            int[,] matrix = new int[n, n];
+            int row = 0;
+            int col = 0;
+
+            string direction = "right";
+            int maxRotations = n * n;
+
+            for (int i = 1; i <= maxRotations; i++)
+            {
+
+                if (direction == "right" && (col > n - 1 || matrix[row,col] != 0))
+                {
+                    direction = "down";
+                    col--;
+                    row++;
+                }
+                if (direction == "down" && (row > n - 1 || matrix[row, col] != 0))
+                {
+                    direction = "left";
+                    row--;
+                    col--;
+                }
+                if (direction == "left" && (col < 0 || matrix[row, col] != 0 ))
+                {
+                    direction = "up";
+                    col++;
+                    row--;
+                }
+                if (direction == "up" && (row < 0 || matrix[row, col] != 0))
+                {
+                    direction = "right";
+                    row++;
+                    col++;
+                }
 
 
-            Console.WriteLine("First Name: {0} \nLast Name: {1} \nAge : {2} \nGender: {3} \nPersonal ID: {4} \nUnique Employee ID: {5}",
-                companyStaff.firstName,
-                companyStaff.lastName,
-                companyStaff.age,
-                companyStaff.gender,
-                companyStaff.personalID,
-                companyStaff.uniqueEmployeeID);
-            Console.ReadLine();
+
+
+                matrix[row, col] = i;
+
+                if (direction == "right")
+                {
+                    col++;
+                }
+                if (direction == "down")
+                {
+                    row++;
+                }
+                if (direction == "left")
+                {
+                    col--;
+                }
+                if (direction == "up")
+                {
+                    row--;
+                }
+            }
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    Console.Write("{0,-4}", matrix[i, j]);
+                }
+                Console.WriteLine();
+            }
 
         }
-        class EmployeeBasicData
-        {
-            public string firstName { get; set; }
-            public string lastName { get; set; }
-            public byte age { get; set; }
-            public char gender { get; set; }
-            public long personalID { get; set; }
-            public long uniqueEmployeeID { get; set; }
-        }
+
     }
 
 }

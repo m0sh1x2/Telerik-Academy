@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.FallDown", "05.FallDown\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.FallDOwnByMe", "05.FallDOwnByMe\05.FallDOwnByMe.csproj", "{3A2653F7-064B-4742-98AF-65F9908DC87B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.TelerikLogo", "04.TelerikLogo\04.TelerikLogo.csproj", "{7C63FA77-6B9A-4C7A-83D7-D4B070B9056F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{3A2653F7-064B-4742-98AF-65F9908DC87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A2653F7-064B-4742-98AF-65F9908DC87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A2653F7-064B-4742-98AF-65F9908DC87B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C63FA77-6B9A-4C7A-83D7-D4B070B9056F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C63FA77-6B9A-4C7A-83D7-D4B070B9056F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C63FA77-6B9A-4C7A-83D7-D4B070B9056F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C63FA77-6B9A-4C7A-83D7-D4B070B9056F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
