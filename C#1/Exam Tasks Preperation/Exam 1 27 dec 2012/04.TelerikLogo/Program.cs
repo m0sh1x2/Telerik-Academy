@@ -10,66 +10,111 @@ namespace _04.TelerikLogo
     {
         static void Main(string[] args)
         {
-            int X = 5;
+            int X = int.Parse(Console.ReadLine());
             int Y = X;
             int Z = (X / 2) + 1;
 
             int width = (Z * 2 + Y * 2) - 3;
             int height = (Z * 2 + Y * 2) - 3;
 
-            int currentCol = (X / 2);
-            int currentRow = 0;
+            int row = X / 2;
+            int col = 0;
 
-            int[,] matrix = new int[height, width];
+            int[,] matrix = new int[width, height];
 
-            Console.WriteLine(width);
 
+            // Solution
             while (true)
             {
-                matrix[currentRow, currentCol] = 1;
-
-                currentCol--;
-                currentRow++;
-                if (currentCol < 0)
+                matrix[row, col] = 1;
+                row--;
+                col++;
+                if (row < 0)
                 {
-                    currentCol++;
-                    currentRow--;
+                    row++;
+                    col--;
                     break;
                 }
 
             }
             while (true)
             {
-                matrix[currentRow, currentCol] = 1;
+                matrix[row, col] = 1;
+                row++;
+                col++;
 
-                currentCol++;
-                currentRow++;
-                if (currentRow == (width/2) +1)
+                if (col > width - X / 2 - 1)
                 {
+                    row--;
+                    col--;
+                    break;
+                }
+            }
 
+            while (true)
+            {
+                matrix[row, col] = 1;
+                col--;
+                row++;
+
+                if (row > width - 1)
+                {
+                    col++;
+                    row--;
+                    break;
+                }
+            }
+
+            while (true)
+            {
+
+                matrix[row, col] = 1;
+                row--;
+                col--;
+                if (col < X / 2)
+                {
+                    row++;
+                    col++;
                     break;
                 }
 
             }
+            while (true)
+            {
+                matrix[row, col] = 1;
+                row--;
+                col++;
+                if (row < 0)
+                {
+                    row++;
+                    col--;
+                    break;
+                }
+            }
+            while (true)
+            {
+                matrix[row, col] = 1;
+                row++;
+                col++;
 
+                if (col > width - 1)
+                {
+                    break;
+                }
 
-
-
-
-
-
+            }
 
             // print
 
-            for (int row = 0; row < height; row++)
+            for (int i = 0; i < height; i++)
             {
-                for (int col = 0; col < width; col++)
+                for (int j = 0; j < width; j++)
                 {
-                    if (matrix[row, col] == 0)
+                    if (matrix[i, j] == 0)
                     {
                         Console.Write(".");
                     }
-                    else if (matrix[row, col] == 1)
+                    else if (matrix[i, j] == 1)
                     {
                         Console.Write("*");
                     }
