@@ -10,45 +10,80 @@ namespace _04.Carpets
     {
         static void Main(string[] args)
         {
-            //int n = int.Parse(Console.ReadLine());
-            int n = 12;
+            int n = int.Parse(Console.ReadLine());
 
-            int[,] carpet = new int[n, n];
+
+            int[,] matrix = new int[n, n];
             int startSlash = n / 2 - 1;
             int endSlash = n / 2 - 1;
-            int counter = 0;
+            bool isSlash = true;
 
-
-            for (int row = 0; row < n; row++)
+            for (int row = 0; row < n / 2; row++)
             {
-                for (int col = 0; col < n; col++)
+                for (int col = 0; col < n / 2; col++)
                 {
-                    if (row == counter && col == startSlash)
+                    if (startSlash <= col)
                     {
-                        carpet[row, col] = 2;
-                    }
-                    if (row == counter && col == endSlash + 1)
-                    {
-                        carpet[row, col] = 3;
-                    }
+                        if (isSlash)
+                        {
+                            matrix[row, col] = 2;
+                            matrix[n - 1 - row, col] = 3;
+                            matrix[row, n - 1 - col] = 3;
+                            matrix[n - 1 - row, n - 1 - col] = 2;
 
+                            isSlash = false;
+                        }
+                        else
+                        {
+                            matrix[row, col] = 1;
+                            matrix[n - 1 - row, col] = 1;
+                            matrix[row, n - 1 - col] = 1;
+                            matrix[n - 1 - row, n - 1 - col] = 1;
+                            isSlash = true;
+                        }
+
+                    }
 
 
                 }
-                counter++;
+                isSlash = true;
+                startSlash--;
             }
+
+
+
+
+
+
+
+
+
+
+            //print
 
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
-                    Console.Write(carpet[i, j]);
+                    if (matrix[i, j] == 0)
+                    {
+                        Console.Write(".");
+                    }
+                    else if (matrix[i, j] == 1)
+                    {
+                        Console.Write(" ");
+                    }
+                    else if (matrix[i, j] == 2)
+                    {
+                        Console.Write("/");
+                    }
+                    else if (matrix[i, j] == 3)
+                    {
+                        Console.Write("\\");
+                    }
                 }
                 Console.WriteLine();
             }
-
-
-
 
         }
     }
