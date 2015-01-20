@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.FOrmulaBitOne", "05.FOrm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.DiamondTrolls", "04.DiamondTrolls\04.DiamondTrolls.csproj", "{3F81DE00-7FEE-40C3-A5A4-8CCA9B0A0E16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.XExpression", "03.XExpression\03.XExpression.csproj", "{6292A575-A305-495C-A47E-B1A0159E2995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.AngryFemaleGPS", "02.AngryFemaleGPS\02.AngryFemaleGPS.csproj", "{1E8D8172-A384-40A4-82BF-E5E2BB427BE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{3F81DE00-7FEE-40C3-A5A4-8CCA9B0A0E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F81DE00-7FEE-40C3-A5A4-8CCA9B0A0E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F81DE00-7FEE-40C3-A5A4-8CCA9B0A0E16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6292A575-A305-495C-A47E-B1A0159E2995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6292A575-A305-495C-A47E-B1A0159E2995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6292A575-A305-495C-A47E-B1A0159E2995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6292A575-A305-495C-A47E-B1A0159E2995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E8D8172-A384-40A4-82BF-E5E2BB427BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E8D8172-A384-40A4-82BF-E5E2BB427BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E8D8172-A384-40A4-82BF-E5E2BB427BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E8D8172-A384-40A4-82BF-E5E2BB427BE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
