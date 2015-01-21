@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>1db29ddc-1dda-4ecf-88d0-8a6968ef4798</ProjectGuid>
+    <ProjectGuid>{68A4C199-E21A-4A96-A527-5581FFEA2A91}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_04.Eggcelent</RootNamespace>
-    <AssemblyName>_04.Eggcelent</AssemblyName>
+    <RootNamespace>_01.AmericanPie</RootNamespace>
+    <AssemblyName>01.AmericanPie</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="OnesAndZeroes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
