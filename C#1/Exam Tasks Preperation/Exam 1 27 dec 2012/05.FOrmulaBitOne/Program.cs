@@ -11,74 +11,97 @@ namespace _05.FOrmulaBitOne
         static void Main(string[] args)
         {
 
-            int n = 5;
+            int[,] matrix = new int[8, 8];
 
-            int[,] matrix = new int[n, n];
-            int col = 0;
-            int row = 0;
-            string direction = "right";
-
-
-            for (int i = 1; i <=n*n; i++)
+            for (int i = 0; i < 8; i++)
             {
-                if (direction == "right" && (col > n - 1 || matrix[row,col] != 0))
+                int number = int.Parse(Console.ReadLine());
+                for (int j = 0; j < 8; j++)
                 {
-                    direction = "down";
-                    row++;
-                    col--;
+                    int bit = (number >> j) & 1;
+                    matrix[i, j] = bit;
+                }
+            }
+            int row = 0;
+            int col = 0;
+            bool endFound = false;
+            string direction = "down";
+            string lastDirection = "down";
+            int directionCount = 0;
+            int counter = 0;
+
+            while (!endFound)
+            {
+                if (matrix[row, col] == 1)
+                {
+                    break;
+                }
+                counter++;
+                if (col == 7 && row == 7)
+                {
+                    endFound = true;
+                    break;
                 }
 
-                if (direction == "down" && (row > n - 1 || matrix[row, col] != 0))
+                matrix[row, col] = 2;
+
+                if (direction == "down" && (row + 1 > 7 || matrix[row + 1, col] == 1))
                 {
                     direction = "left";
-                    row--;
-                    col--;
-                }
+                    lastDirection = "down";
+                    directionCount++;
 
-                if (direction == "left" && (col < 0 || matrix[row, col] != 0))
+                    if (col + 1 > 7 || matrix[row, col + 1] == 1)
+                    {
+                        break;
+                    }
+                }
+                if (direction == "up" && (row - 1 < 0 || matrix[row - 1, col] == 1))
+                {
+                    direction = "left";
+                    lastDirection = "up";
+                    directionCount++;
+                    if (col + 1 > 7 || matrix[row, col + 1] == 1)
+                    {
+                        break;
+                    }
+                }
+                if (direction == "left" && lastDirection == "down" && (col + 1 > 7 || matrix[row, col + 1] == 1))
                 {
                     direction = "up";
-                    row--;
-                    col++;
+                    lastDirection = "left";
+                    directionCount++;
                 }
-                if (direction == "up" && (row < 0 || matrix[row, col] != 0))
+                if (direction == "left" && lastDirection == "up" && (col + 1 > 7 || matrix[row, col + 1] == 1))
                 {
-                    direction = "right";
-                    row++;
-                    col++;
-                }
-
-
-
-                matrix[row, col] = i;
-
-                if (direction == "right")
-                {
-                    col++;
+                    lastDirection = "up";
+                    direction = "down";
+                    directionCount++;
                 }
                 if (direction == "down")
                 {
                     row++;
                 }
-                if (direction == "left")
-                {
-                    col--;
-                }
                 if (direction == "up")
                 {
                     row--;
                 }
-
-            }
-
-            for (int i = 0; i < n; i++)
-            {
-                for (int j = 0; j < n; j++)
+                if (direction == "left")
                 {
-                    Console.Write("{0,4}", matrix[i, j]);
+                    col++;
                 }
-                Console.WriteLine();
             }
+
+            if (endFound)
+            {
+
+                Console.WriteLine(counter + " " + directionCount);
+            }
+            else
+            {
+                Console.WriteLine("No " + counter);
+            }
+
         }
     }
 }
