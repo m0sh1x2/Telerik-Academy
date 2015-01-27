@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Trapezoid", "03.Trapezoi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.OddNumber", "04.OddNumber\04.OddNumber.csproj", "{33E617DE-7AD1-41B3-B980-046408E058C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.GameOfPage", "05.GameOfPage\05.GameOfPage.csproj", "{8FF2E42E-E75A-4D18-9E0F-6A905BC6C0C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{33E617DE-7AD1-41B3-B980-046408E058C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33E617DE-7AD1-41B3-B980-046408E058C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33E617DE-7AD1-41B3-B980-046408E058C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF2E42E-E75A-4D18-9E0F-6A905BC6C0C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF2E42E-E75A-4D18-9E0F-6A905BC6C0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF2E42E-E75A-4D18-9E0F-6A905BC6C0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF2E42E-E75A-4D18-9E0F-6A905BC6C0C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
