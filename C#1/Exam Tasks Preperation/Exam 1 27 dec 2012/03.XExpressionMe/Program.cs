@@ -4,73 +4,77 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _03.XExpression
+namespace _03.XExpressionMe
 {
     class Program
     {
         static void Main(string[] args)
         {
 
-            string expression = Console.ReadLine();
+            string number = Console.ReadLine();
             decimal result = 0;
-            decimal currentBracketResult = 0;
-
-            char currentOperator = '+';
-            char currentBracketOperator = '+';
+            decimal bracketResult = 0;
             bool inBracket = false;
 
 
-            foreach (char symbol in expression)
+
+            char currentSymbol = '+';
+            char currentBracketSymbol = '+';
+
+
+            foreach (char symbol in number)
             {
+
                 if (symbol == '(')
                 {
-                    
                     inBracket = true;
                     continue;
                 }
+
                 if (symbol == ')')
                 {
                     inBracket = false;
-                    switch (currentOperator)
+                    switch (currentSymbol)
                     {
-                        case '+': result += currentBracketResult; break;
-                        case '-': result -= currentBracketResult; break;
-                        case '*': result *= currentBracketResult; break;
-                        case '/': result /= currentBracketResult; break;
+                        case '+': result += bracketResult; break;
+                        case '-': result -= bracketResult; break;
+                        case '*': result *= bracketResult; break;
+                        case '/': result /= bracketResult; break;
                     }
-                    currentBracketResult = 0;
-                    currentBracketOperator = '+';
+                    bracketResult = 0;
+                    currentBracketSymbol = '+';
+                    
                 }
+
 
                 if (symbol == '+' || symbol == '-' || symbol == '*' || symbol == '/')
                 {
                     if (inBracket)
                     {
-                        currentBracketOperator = symbol;
+                        currentBracketSymbol = symbol;
                     }
                     else
                     {
-                        currentOperator = symbol;
+                        currentSymbol = symbol;
                     }
                 }
-
                 if (symbol >= '0' && symbol <= '9')
                 {
                     int currentNumber = symbol - '0';
 
                     if (inBracket)
                     {
-                        switch (currentBracketOperator)
+                        switch (currentBracketSymbol)
                         {
-                            case '+': currentBracketResult += currentNumber; break;
-                            case '-': currentBracketResult -= currentNumber; break;
-                            case '*': currentBracketResult *= currentNumber; break;
-                            case '/': currentBracketResult /= currentNumber; break;
+                            case '+': bracketResult += currentNumber; break;
+                            case '-': bracketResult -= currentNumber; break;
+                            case '*': bracketResult *= currentNumber; break;
+                            case '/': bracketResult /= currentNumber; break;
                         }
                     }
                     else
                     {
-                        switch (currentOperator)
+                        switch (currentSymbol)
                         {
                             case '+': result += currentNumber; break;
                             case '-': result -= currentNumber; break;
@@ -80,9 +84,7 @@ namespace _03.XExpression
                     }
                 }
             }
-
-            Console.WriteLine("{0:0.00}", result);
-
+            Console.WriteLine("{0:F2}", result);
         }
     }
 }

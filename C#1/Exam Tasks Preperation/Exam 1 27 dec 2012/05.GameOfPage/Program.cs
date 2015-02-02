@@ -15,7 +15,7 @@ namespace _05.GameOfPage
 
             System.Threading.Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
 
-            int[,] page = new int[16, 16];
+            int[,] page = new int[18, 18];
             double price = 1.79;
             double paypal = 0.0;
 
@@ -40,57 +40,9 @@ namespace _05.GameOfPage
                     int row = int.Parse(Console.ReadLine());
                     int col = int.Parse(Console.ReadLine());
 
-                    if (row == 0 && col <= 15)
-                    {
-                        if (
-                            //middle
-                            page[row, col] == 1 &&
-                            page[row, col + 1] == 1 &&
-                            page[row, col - 1] == 1)
-                        {
-                            result.AppendLine("broken cookie");
-                        }
-                    }
-                    else if (row == 0 && col == 0)
-                    {
-                        if (
-                            //part of middle
-                            page[row, col] == 1 &&
-                            page[row, col - 1] == 1)
-                        {
-                            result.AppendLine("broken cookie");
-                        }
-                    }
-                    else
-                    {
-                        if (
-                            //middle
-                            page[row, col] == 1 &&
-                            page[row, col + 1] == 1 &&
-                            page[row, col - 1] == 1 &&
-                            //top
-                            page[row + 1, col] == 1 &&
-                            page[row + 1, col - 1] == 1 &&
-                            page[row + 1, col + 1] == 1 &&
-                            //bottom
-                            page[row - 1, col - 1] == 1 &&
-                            page[row - 1, col] == 1 &&
-                            page[row - 1, col + 1] == 1)
-                        {
-                            result.AppendLine("cookie");
-                        }
-                        else if (page[row, col] == 1)
-                        {
-                            result.AppendLine("cookie crumb");
-                        }
-                        else
-                        {
-                            //If there is nothing well there is nothing :D
-                            //Console.WriteLine("page");
-                        }
-                    }
+                    //check for broken
 
-
+                   
 
 
                 }
@@ -98,60 +50,20 @@ namespace _05.GameOfPage
                 {
                     int row = int.Parse(Console.ReadLine());
                     int col = int.Parse(Console.ReadLine());
-                    if (
-                        //middle
-                            page[row, col] == 1 &&
-                            page[row, col + 1] == 1 &&
-                            page[row, col - 1] == 1 &&
-                        //top
-                            page[row + 1, col] == 1 &&
-                            page[row + 1, col - 1] == 1 &&
-                            page[row + 1, col + 1] == 1 &&
-                        //bottom
-                            page[row - 1, col - 1] == 1 &&
-                            page[row - 1, col] == 1 &&
-                            page[row - 1, col + 1] == 1)
-                    {
-
-                        //middle
-                        page[row, col] = 0;
-                        page[row, col + 1] = 0;
-                        page[row, col - 1] = 0;
-                        //top
-                        page[row + 1, col] = 1;
-                        page[row + 1, col - 1] = 0;
-                        page[row + 1, col + 1] = 0;
-                        //bottom
-                        page[row - 1, col - 1] = 0;
-                        page[row - 1, col] = 0;
-                        page[row - 1, col + 0] = 0;
-                        result.AppendLine("smile");
-                        paypal += price;
-
-                    }
-                    else if (page[row, col] == 1)
-                    {
-                        result.AppendLine("page");
-                    }
-                    else
-                    {
-                        //If there is nothing well there is nothing :D
-                        //Console.WriteLine("page");
-                    }
+                    
 
                 }
                 else if (input == "paypal")
                 {
-                    result.AppendLine(paypal.ToString());
-                    break;
+                    
                 }
                 else
                 {
-                    //result.Append("smile");
+                    
                 }
             }
 
-            Console.WriteLine(result);
+            Console.WriteLine("{0:0.00}",result);
 
         }
     }
