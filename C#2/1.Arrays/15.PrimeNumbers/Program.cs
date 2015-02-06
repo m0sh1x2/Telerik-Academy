@@ -10,7 +10,7 @@ namespace _15.PrimeNumbers
     {
         static void Main(string[] args)
         {
-            int n = 30;// int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
             int[] list = new int[n - 1];
             int counter = 2;
             for (int i = 0; i < list.Length; i++)
@@ -18,19 +18,23 @@ namespace _15.PrimeNumbers
                 //generate the array
                 list[i] = counter++;
 
-                //logic
+            }
+            int firstPosition = 0;
+            int secondPosition = 1;
+            int thirdPosition = 4;
+            for (int i = 0; i < list.Length; i++)
+            {
                 //remove 2nd numbers
                 if (i % 2 == 0 && i > 0)
                 {
                     list[i] = 0;
                 }
-                //remove 3rd numbers
-                if (i % 7 == 0 && i > 3)
+                if (list[i] % 3 == 0 && i > 1)
                 {
                     list[i] = 0;
                 }
-                //remove 5th numbers
-                if (i % 8 == 0 && i > 4)
+
+                if (list[i] % 5 == 0 && i > 3)
                 {
                     list[i] = 0;
                 }
