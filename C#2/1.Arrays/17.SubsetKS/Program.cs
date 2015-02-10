@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _16.SubsetSumS
+namespace _17.SubsetKS
 {
     class Program
     {
         static void Main(string[] args)
         {
-
+            //Same task as 16
             //2, 1, 2, 4, 3, 5, 2, 6
             Console.WriteLine("Enter the arrays elements separated by comma : ");
             string[] array = Console.ReadLine().Split(',');
@@ -45,7 +45,7 @@ namespace _16.SubsetSumS
                     }
                 }
                 if (checkingSum == sum)
-                {   
+                {
                     counter++;
                     Console.WriteLine("Subset of {0} : {1} ", sum, subset);
                 }

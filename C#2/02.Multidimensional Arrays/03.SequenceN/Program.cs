@@ -1,86 +1,87 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace _03.SequenceN
+namespace Problem03SequenceNMatrix
 {
-    class Program
+    class SequenceNMatrix
     {
         static void Main()
         {
-            var matrix = new string[,] { { "ha", "fifi", "ho", "hi" }, { "fo", "ha", "hi", "xx" }, { "xxx", "ho", "ha", "xx" } };
+            Console.WriteLine("N = ");
+            int n = int.Parse(Console.ReadLine());
+            Console.WriteLine("M = ");
+            int m = int.Parse(Console.ReadLine());
 
-
-
-            int maxElements = 0;
-            int currentElements = 0;
-            string maxStr = "";
-
-            for (int i = 0; i < matrix.GetLength(0); i++)
+            string[,] array = new string[n, m];
+            // Read data from console
+            for (int i = 0; i < n; i++)
             {
-
-
-                for (int j = 0; j < matrix.GetLength(0); j++)
+                for (int j = 0; j < m; j++)
                 {
-
-                    //Check horizontall elements
-                    currentElements = 0;
-                    for (int k = 0; k < matrix.GetLength(0) - 1; k++)
-                    {
-
-                        if (matrix[j, k + 1] == matrix[j, k])
-                        {
-                            currentElements++;
-                        }
-
-                        if (currentElements > maxElements)
-                        {
-                            maxElements = currentElements;
-                            maxStr = matrix[j, k];
-                        }
-
-                    }
-                    //vertical elements
-                    currentElements = 0;
-                    for (int k = j; k < matrix.GetLength(1) - 1; k++)
-                    {
-                        if (matrix[k, j] == matrix[k + 1, j])
-                        {
-                            currentElements++;
-                        }
-
-                        if (currentElements > maxElements)
-                        {
-                            maxElements = currentElements;
-                            maxStr = matrix[k, i];
-                        }
-                    }
-
-                    //check diagonal
-                    currentElements = 0;
-                    for (int k = i, l = j; (k < n - 1) && (l < m - 1); k++, l++)
-                    {
-                        if (matrix[l, k] == matrix[l + 1, k + 1])
-                        {
-                            currentElements++;
-                        }
-
-                        if (currentElements > maxElements)
-                        {
-                            maxElements = currentElements;
-                            maxStr = matrix[l, k];
-                        }
-                    }
-
+                    Console.Write("Array[{0},{1}] = ", i, j);
+                    array[i, j] = Console.ReadLine();
                 }
-
-
-
             }
 
-        }
+            int numMaxElements = 0;
+            int numCurrElements = 0;
+            string maxStr = "";
 
+            // Find sequence
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < m; j++)
+                {
+                    // For current element, goto end horizontally, count elements
+                    numCurrElements = 0;
+                    for (int k = i; k < n - 1; k++)
+                    {
+                        if (array[j, k + 1] == array[j, k])
+                        {
+                            numCurrElements++;
+                        }
+
+                        if (numCurrElements > numMaxElements)
+                        {
+                            numMaxElements = numCurrElements;
+                            maxStr = array[j, k];
+                        }
+                    }
+
+                    // For current element, goto end vertically, count elements
+                    numCurrElements = 0;
+                    for (int k = j; k < m - 1; k++)
+                    {
+                        if (array[k, i] == array[k + 1, i])
+                        {
+                            numCurrElements++;
+                        }
+
+                        if (numCurrElements > numMaxElements)
+                        {
+                            numMaxElements = numCurrElements;
+                            maxStr = array[k, i];
+                        }
+                    }
+
+                    // For current element, goto end diagonally, count elements
+                    numCurrElements = 0;
+                    for (int k = i, l = j; (k < n - 1) && (l < m - 1); k++, l++)
+                    {
+                        if (array[l, k] == array[l + 1, k + 1])
+                        {
+                            numCurrElements++;
+                        }
+
+                        if (numCurrElements > numMaxElements)
+                        {
+                            numMaxElements = numCurrElements;
+                            maxStr = array[l, k];
+                        }
+                    }
+                }
+            }
+
+            for (int i = 0; i < numMaxElements + 1; i++) Console.Write(maxStr + ", ");
+        }
     }
 }
