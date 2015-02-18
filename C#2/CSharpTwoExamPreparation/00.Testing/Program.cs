@@ -2,114 +2,213 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
+using System.Globalization;
 
-// define structure with all parameters needed for our game elements
-// it can be anything - wall, enemy, pac man, door ect.
-// think of a structure as a variable type like int, double, string ect.
-// our structure is called element and it will have all the 
-// properties that we`ll define in it
-// we can create new objects of type elements the same way we
-// define new strings, integers, floats and any other object
-// element pacMan = new element();
-// pacMan.skin = 'o'; //will set variable pacMan character to 'o'
 struct Element
 {
-    public int x;   // x coordinate
-    public int y;   // y coordinate
-
-    // the type of game object will be defined by the ASCII character
-    // for example enemies can be char 'Y', pacman can be char 'o'
+    // define new object type with structure
+    // screen position x,y
+    public int x;
+    public int y;
+    // type of game object is defined by ASCII char
     public char skin;
-    public ConsoleColor colour; //sets color of char (game object)
+    public ConsoleColor colour;
 }
 
 class PacMan3D
 {
-    // this method will draw our object on the console when called
-    // on the specified position and with specified character and
-    // colour. Method is small code with specialized function
-    // that can be called anytime in the main code block to do
-    // its job. Instead of writing over and over again the same
-    // lines of code, we just call the method by its name
-    static void RenderObject(int x, int y, char skin,
-        ConsoleColor colour = ConsoleColor.Gray)
-    {
-        Console.SetCursorPosition(x, y);
-        Console.ForegroundColor = colour;
-        Console.Write(skin);
-    }
-
-    // next is our main method, think of it as our core game code
-    // that will call other defined methods (additional game codes)
-    // to do certain tasks. This is the place from where our program
-    // starts running.
     static void Main()
     {
-        // first we set the console width and height (game resolution)
-        Console.BufferHeight = Console.WindowHeight = 30;
-        Console.BufferWidth = Console.WindowWidth = 30;
+        Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
 
-        //next we create our hero pacMan as a variable of type element
+        #region Memory Initialization
+
+        // set console size (screen resolution)
+        Console.BufferHeight = Console.WindowHeight = 21;
+        Console.BufferWidth = Console.WindowWidth = 40;
+
+        // set playfield size
+        int playfieldHeight = Console.WindowHeight - 1;
+        int playfieldWidth = Console.WindowWidth - 20;
+
+        // define hero pacMan as a variable of type element
         Element pacMan = new Element();
-        // initial pacman position in center of screen
-        pacMan.x = Console.WindowWidth / 2;
-        pacMan.y = Console.WindowHeight / 2;
+        // initial pacman position in center of playfield
+        pacMan.x = playfieldWidth / 2;
+        pacMan.y = playfieldHeight / 2;
         pacMan.skin = (char)9787; // utf8 decimal code 9787 (smile face) is our hero character
         pacMan.colour = ConsoleColor.Yellow;
 
+
+
+
+        //making list for multiple enemies
+        List<Element> BadGuys = new List<Element>();
+        // define enemies as a variable of type element
+        Element newBadGuy = new Element();
+        for (int i = 0; i < 7; i++)
+        {
+            // initial badguy position on the playfield playfield  
+            Random randomizerBadGuy = new Random();
+            int positionBadGuyX = randomizerBadGuy.Next(1, 6);
+            int positionBadGuyY = randomizerBadGuy.Next(1, 6);
+            newBadGuy.x = playfieldHeight / positionBadGuyX;
+            newBadGuy.y = playfieldWidth / positionBadGuyY;
+            newBadGuy.skin = '\u2666'; // utf8 decimal code 2736 (black star) is our enemy character
+            newBadGuy.colour = ConsoleColor.Red;
+            BadGuys.Add(newBadGuy);
+        }
+        // define labyrinth variable and build example
+        string[] labyrinth = new string[playfieldHeight];
+
+        Random rand = new Random();
+
+
+        for (int row = 0; row < playfieldHeight; row++)
+        {
+            for (int col = 0; col < playfieldWidth; col++)
+            {
+
+                if (row == playfieldHeight / 2 && col == playfieldWidth / 2)
+                {
+                    labyrinth[row] += " ";
+                    continue;
+                }
+                int chance = rand.Next(1, 101);
+                if (chance < 20)
+                {
+                    labyrinth[row] += "\u2588";
+                }
+                else
+                {
+                    labyrinth[row] += " ";
+                }
+
+            }
+        }
+
+        #endregion
+
         while (true)
         {
-            // first we listen for use input and if a key is pressed then we enter the cycle
+
+
+            #region Build Frame
+
+            //badguy move pathern
+            Random switchBadGuy = new Random();
+            int switched = switchBadGuy.Next(4);
+            switch (switched)
+            {
+                case 0:
+                    if (newBadGuy.x > 1)
+                    {
+                        if (labyrinth[newBadGuy.y][newBadGuy.x - 1] != '\u2588')
+                        {
+                            newBadGuy.x = newBadGuy.x - 1;
+                        }
+                    }
+                    break;
+                case 1:
+                    if (newBadGuy.x < playfieldWidth - 1)
+                    {
+                        if (labyrinth[newBadGuy.y][newBadGuy.x + 1] != '\u2588')
+                        {
+
+                            newBadGuy.x = newBadGuy.x + 1;
+                        }
+                    }
+                    break;
+                case 2:
+                    if (newBadGuy.y > 1)
+                    {
+                        if (labyrinth[newBadGuy.y - 1][newBadGuy.x] != '\u2588')
+                        {
+                            newBadGuy.y = newBadGuy.y - 1;
+                        }
+                    }
+                    break;
+                case 3:
+                    if (newBadGuy.y < playfieldHeight - 1)
+                    {
+                        if (labyrinth[newBadGuy.y + 1][newBadGuy.x] != '\u2588')
+                        {
+                            newBadGuy.y = newBadGuy.y + 1;
+                        }
+                    }
+                    break;
+                default:
+                    continue;
+            }
+
+            // move PacMan
             while (Console.KeyAvailable)
             {
                 // we assign the pressed key value to a variable pressedKey
                 ConsoleKeyInfo pressedKey = Console.ReadKey(true);
                 // next we start checking the value of the pressed key and take action if neccessary
-                if (pressedKey.Key == ConsoleKey.LeftArrow) // if left arrow is pressed then
+                if (pressedKey.Key == ConsoleKey.LeftArrow && pacMan.x > 1) // if left arrow is pressed then
                 {
-                    if (pacMan.x - 1 >= 0)  // if we reached the leftmost part of the screen do nothing
+                    if (labyrinth[pacMan.y][pacMan.x - 1] != '\u2588')
                     {
-                        pacMan.x = pacMan.x - 1;    // if we haven`t recached the leftomost part of screen change x position of element pacMan one character ot the left
+                        pacMan.x = pacMan.x - 1;
                     }
                 }
-                else if (pressedKey.Key == ConsoleKey.RightArrow)
+                else if (pressedKey.Key == ConsoleKey.RightArrow && pacMan.x < playfieldWidth - 1)
                 {
-                    if (pacMan.x + 1 < Console.WindowWidth)
+                    if (labyrinth[pacMan.y][pacMan.x + 1] != '\u2588')
                     {
+
                         pacMan.x = pacMan.x + 1;
                     }
                 }
-                else if (pressedKey.Key == ConsoleKey.UpArrow)
+                else if (pressedKey.Key == ConsoleKey.UpArrow && pacMan.y > 1)
                 {
-                    if (pacMan.y - 1 >= 0)
+                    if (labyrinth[pacMan.y - 1][pacMan.x] != '\u2588')
                     {
                         pacMan.y = pacMan.y - 1;
                     }
                 }
-                else if (pressedKey.Key == ConsoleKey.DownArrow)
+                else if (pressedKey.Key == ConsoleKey.DownArrow && pacMan.y < playfieldHeight - 1)
                 {
-                    // I don`t use the last line (WindowHeight -1) for game field because
-                    // there is a bug with the console bottom right pixel
-                    // the cursor is shifted to previous line after printig to it so it must be
-                    // exluded or our hero gets teleported. Assume that last line of screen is unusable
-                    if (pacMan.y + 1 < Console.WindowHeight - 1)
+                    if (labyrinth[pacMan.y + 1][pacMan.x] != '\u2588')
                     {
                         pacMan.y = pacMan.y + 1;
                     }
                 }
+
             }
 
-            Console.Clear();    //resets the screen (clears the screen for next frame printing)
 
-            // From this point on we have a blank (empty) console screen and start writing the next "frame" to it.
-            // This means that we print all the elements in their new coordinates. And return to the beginning of the while
-            // cycle to start calculating their next coordinates before clearing the screen again and printing the next frame.
+            #endregion
 
-            // Next we call the method we created earlier RenderObject. It prints character in pacMan.skin variable to x and y 
-            // coordinates of variables pacMan.x and pacMan.y with colour of variable pacMan.colour.
-            RenderObject(pacMan.x, pacMan.y, pacMan.skin, pacMan.colour);
+            #region Print Frame
 
-            Thread.Sleep(100);  //this controls the framerate (speed of game) - the time to wait before returning to the beginning of the while cycle and starting to print the new state of all objects to console screen again
+            Console.Clear();    // fast screen clear
+            PrintLabyrinth(labyrinth);
+            PrintElement(pacMan);
+            PrintElement(newBadGuy);
+            #endregion
+
+            Thread.Sleep(100);  // control game speed
+        }
+    }
+
+    static void PrintElement(Element thisObject)
+    {
+        // print object of type Element
+        Console.SetCursorPosition(thisObject.x, thisObject.y);
+        Console.ForegroundColor = thisObject.colour;
+        Console.Write(thisObject.skin);
+    }
+
+    static void PrintLabyrinth(string[] thisArray)
+    {
+        Console.SetCursorPosition(0, 0);
+        Console.ForegroundColor = ConsoleColor.White;
+        for (int i = 0; i < thisArray.Length; i++)
+        {
+            Console.WriteLine(thisArray[i]);
         }
     }
 }
