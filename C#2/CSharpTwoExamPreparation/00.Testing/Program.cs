@@ -2,77 +2,56 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
-
-namespace Example
+class MultiverseCommunication
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        string zergCode = Console.ReadLine();
+        long result = 0;
+
+        long power = zergCode.Length / 3 - 1;
+        for (int i = 0; i < zergCode.Length; i += 3)
         {
-            Grasshoper();
+            var currentMessage = zergCode.Substring(i, 3);
 
+            result += decrytpedCode(currentMessage) * powerOf(power);
+            power--;
         }
+        Console.WriteLine(result);
 
-        private static void Grasshoper()
+    }
+
+    static long powerOf(long power)
+    {
+        long result = 1;
+        for (long i = 0; i < power; i++)
         {
-            Thread.Sleep(2000);
-            Console.Beep(264, 125);
-            Thread.Sleep(250);
-            Console.Beep(264, 125);
-            Thread.Sleep(125);
-            Console.Beep(297, 500);
-            Thread.Sleep(125);
-            Console.Beep(264, 500);
-            Thread.Sleep(125);
-            Console.Beep(352, 500);
-            Thread.Sleep(125);
-            Console.Beep(330, 1000);
-            Thread.Sleep(250);
-            Console.Beep(264, 125);
-            Thread.Sleep(250);
-            Console.Beep(264, 125);
-            Thread.Sleep(125);
-            Console.Beep(297, 500);
-            Thread.Sleep(125);
-            Console.Beep(264, 500);
-            Thread.Sleep(125);
-            Console.Beep(396, 500);
-            Thread.Sleep(125);
-            Console.Beep(352, 1000);
-            Thread.Sleep(250);
-            Console.Beep(264, 125);
-            Thread.Sleep(250);
-            Console.Beep(264, 125);
-            Thread.Sleep(125);
-            Console.Beep(2642, 500);
-            Thread.Sleep(125);
-            Console.Beep(440, 500);
-            Thread.Sleep(125);
-            Console.Beep(352, 250);
-            Thread.Sleep(125);
-            Console.Beep(352, 125);
-            Thread.Sleep(125);
-            Console.Beep(330, 500);
-            Thread.Sleep(125);
-            Console.Beep(297, 1000);
-            Thread.Sleep(250);
-            Console.Beep(466, 125);
-            Thread.Sleep(250);
-            Console.Beep(466, 125);
-            Thread.Sleep(125);
-            Console.Beep(440, 500);
-            Thread.Sleep(125);
-            Console.Beep(352, 500);
-            Thread.Sleep(125);
-            Console.Beep(396, 500);
-            Thread.Sleep(125);
-            Console.Beep(352, 1000);
+            result *= 13;
         }
+        return result;
+    }
 
-
-
-
+    private static long decrytpedCode(string zergCode)
+    {
+        long newCode = 0;
+        switch (zergCode)
+        {
+            case "CHU": newCode = 0; break;
+            case "TEL": newCode = 1; break;
+            case "OFT": newCode = 2; break;
+            case "IVA": newCode = 3; break;
+            case "EMY": newCode = 4; break;
+            case "VNB": newCode = 5; break;
+            case "POQ": newCode = 6; break;
+            case "ERI": newCode = 7; break;
+            case "CAD": newCode = 8; break;
+            case "K-A": newCode = 9; break;
+            case "IIA": newCode = 10; break;
+            case "YLO": newCode = 11; break;
+            case "PLA": newCode = 12; break;
+        }
+        //Console.WriteLine(newCode);
+        return newCode;
     }
 }
