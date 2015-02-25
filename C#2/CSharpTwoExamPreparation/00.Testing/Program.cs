@@ -1,57 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-class MultiverseCommunication
+﻿namespace TRES4
 {
-    static void Main()
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+    using System.Numerics;
+
+    class TRES4
     {
-        string zergCode = Console.ReadLine();
-        long result = 0;
-
-        long power = zergCode.Length / 3 - 1;
-        for (int i = 0; i < zergCode.Length; i += 3)
+        static void Main()
         {
-            var currentMessage = zergCode.Substring(i, 3);
+            long input = long.Parse(Console.ReadLine());
+            long num = long.Parse(input.ToString());
 
-            result += decrytpedCode(currentMessage) * powerOf(power);
-            power--;
+            string convertedInput = Convert.ToString(num, 8);
+
+            StringBuilder str = new StringBuilder();
+
+            for (int i = 0; i < convertedInput.Length + 1; i++)
+            {
+                switch (convertedInput.ToArray()[i])
+                {
+                    case '0': str.Append("LON+"); break;
+                    case '1': str.Append("VK-"); break;
+                    case '2': str.Append("*ACAD"); break;
+                    case '3': str.Append("^MIM"); break;
+                    case '4': str.Append("ERIK|"); break;
+                    case '5': str.Append("SEY&"); break;
+                    case '6': str.Append("EMY>>"); break;
+                    case '7': str.Append("/TEL"); break;
+                    case '8': str.Append("<<DON"); break;
+
+                }
+            }
+
+            Console.WriteLine(str);
         }
-        Console.WriteLine(result);
-
-    }
-
-    static long powerOf(long power)
-    {
-        long result = 1;
-        for (long i = 0; i < power; i++)
-        {
-            result *= 13;
-        }
-        return result;
-    }
-
-    private static long decrytpedCode(string zergCode)
-    {
-        long newCode = 0;
-        switch (zergCode)
-        {
-            case "CHU": newCode = 0; break;
-            case "TEL": newCode = 1; break;
-            case "OFT": newCode = 2; break;
-            case "IVA": newCode = 3; break;
-            case "EMY": newCode = 4; break;
-            case "VNB": newCode = 5; break;
-            case "POQ": newCode = 6; break;
-            case "ERI": newCode = 7; break;
-            case "CAD": newCode = 8; break;
-            case "K-A": newCode = 9; break;
-            case "IIA": newCode = 10; break;
-            case "YLO": newCode = 11; break;
-            case "PLA": newCode = 12; break;
-        }
-        //Console.WriteLine(newCode);
-        return newCode;
     }
 }
