@@ -1,41 +1,63 @@
-﻿namespace TRES4
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _05.TheyAreGreen
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-    using System.Numerics;
-
-    class TRES4
+    class Program
     {
-        static void Main()
+
+        static void Main(string[] args)
         {
-            long input = long.Parse(Console.ReadLine());
-            long num = long.Parse(input.ToString());
 
-            string convertedInput = Convert.ToString(num, 8);
+            ulong input = ulong.Parse(Console.ReadLine());
 
-            StringBuilder str = new StringBuilder();
+            var digits = new List<ulong>();
+            var result = new StringBuilder();
 
-            for (int i = 0; i < convertedInput.Length + 1; i++)
+
+            if (input == 0)
             {
-                switch (convertedInput.ToArray()[i])
-                {
-                    case '0': str.Append("LON+"); break;
-                    case '1': str.Append("VK-"); break;
-                    case '2': str.Append("*ACAD"); break;
-                    case '3': str.Append("^MIM"); break;
-                    case '4': str.Append("ERIK|"); break;
-                    case '5': str.Append("SEY&"); break;
-                    case '6': str.Append("EMY>>"); break;
-                    case '7': str.Append("/TEL"); break;
-                    case '8': str.Append("<<DON"); break;
-
-                }
+                result.Append(ConvertNumber(0));
             }
 
-            Console.WriteLine(str);
+
+            while (input > 0)
+            {
+                digits.Add(input % 9);
+                input /= 9;
+            }
+
+
+            digits.Reverse();
+            foreach (var item in digits)
+            {
+                result.Append(ConvertNumber(item));
+            }
+
+
+            Console.WriteLine(result.ToString());
+        }
+        public static string ConvertNumber(ulong number)
+        {
+            string result = String.Empty;
+
+            switch (number)
+            {
+                case 0: result = "LON+"; break;
+                case 1: result = "VK-"; break;
+                case 2: result = "*ACAD"; break;
+                case 3: result = "^MIM"; break;
+                case 4: result = "ERIK|"; break;
+                case 5: result = "SEY&"; break;
+                case 6: result = "EMY>>"; break;
+                case 7: result = "/TEL"; break;
+                case 8: result = "<<DON"; break;
+            }
+            return result;
+
         }
     }
 }

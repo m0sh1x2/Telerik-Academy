@@ -4,137 +4,112 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Numerics;
 
 namespace _02.BunnyFactory
 {
     class Program
     {
-
-        public static List<int> cages = new List<int>();
-        public static List<int> currentCages = new List<int>();
-
-        public static bool isChecked;
-        public static int currentSum, currentProduct = 1;
-        public static string sum = String.Empty, product = String.Empty;
-        public static int publicAmountOfCages = 0;
-        public static string result = String.Empty;
-
-
         static void Main(string[] args)
         {
+            var cages = ReadInput();
+            var result = new StringBuilder();
 
 
-            ReadInput();
-            FactoryLogic();
-
-        }
-
-        private static void FactoryLogic()
-        {
-
-            int product = 1;
-            int sum = 0;
-
-            int nextNumber = 0; // next number after checking the sum and product
-
-            string result = String.Empty;
-
-
-            for (int i = 0; i < 2; i++)
+            for (int cageCount = 1; true; cageCount++)
             {
-
-
-                result = GetProductAndSum(i);
-
-
-                result += GetRemainingNumbers(publicAmountOfCages + 1);
-
-                cages.Clear();
-                //cages = result.ToList();
-                foreach (var item in result)
+                if (cages.Count < cageCount)
                 {
-                    cages.Add(int.Parse(item.ToString()));
+                    Console.WriteLine(String.Join(" ", cages));
+                    break;
                 }
 
-                Console.WriteLine("result : " + result);
-                Console.WriteLine("sum : " + currentSum);
-                Console.WriteLine("product " + currentProduct);
+                //get cage count
+                int cageSum = 0;
+                for (int i = cageCount - 1; i >= 0; i--)
+                {
+                    cageSum += (int)cages[i];
+                }
+
+                if (cageSum > cages.Count || cageSum < cageCount)
+                {
+                    Console.WriteLine(String.Join(" ", cages));
+                    break;
+                }
+                //get next cages from cage sum
+                var currentSum = GetSumOfCages(cageCount, cageSum + cageCount - 1, cages);
+                var currentProduct = GetProductOfCages(cageCount, cageSum + cageCount - 1, cages);
+                // get the remaining cages
+                var remainingCages = GetRemainingCages(cageCount + cageSum, cages.Count, cages);
 
 
-                currentSum = 0;
-                currentProduct = 0;
-                product = 0;
-                sum = 0;
-                result = String.Empty;
-            }
+                result.Append(currentSum.ToString());
+                result.Append(currentProduct.ToString());
+                result.Append(remainingCages);
 
-        }
 
-        private static string GetRemainingNumbers(int i)
-        {
-            string remaining = String.Empty;
+                // remove 1 and 0 es
+                var theResult = result.ToString().Replace("1", string.Empty).Replace("0", string.Empty);
+                // fill the next cages and clear the sb 
 
-            for (int j = i; j < cages.Count; j++)
-            {
-                remaining += cages[j];
-            }
-            return remaining;
-        }
 
-        private static string GetProductAndSum(int i)
-        {
-            int amountOfCages = 0;
-            for (int j = 0; j <= i; j++)
-            {
-                //get sum of first cages
-                amountOfCages += cages[j];
-            }
-            publicAmountOfCages = amountOfCages;
-            //Get sum and product 
-            int nextNum = 0;
+                result.Clear();
+                cages.Clear();
+                foreach (var item in theResult)
+                {
+                    cages.Add(ulong.Parse(item.ToString()));
+                }
 
-            if (i >= 1)
-            {
-                nextNum = 1;
-            }
-
-            for (int j = i + 1; j <= amountOfCages + nextNum; j++)
-            {
-                //calculate the sum and the product from the first number
-                int currentNumber = cages[j];
-
-                currentSum += currentNumber;
-                currentProduct *= currentNumber;
 
             }
-            //set the sum and product to the result
-            sum = Regex.Replace(currentSum.ToString() + "1", @"[0-1]", string.Empty);
-            product = Regex.Replace(currentProduct.ToString() + "1", @"[0-1]", string.Empty);
-
-            //Set the result
-            result = sum + product;
-            return sum + product;
 
 
         }
-
-
-
-        private static void ReadInput()
+        public static string GetRemainingCages(int start, int end, List<ulong> list)
         {
-            string n;
+            var result = new StringBuilder();
+            for (int i = start; i < end; i++)
+            {
+                result.Append(list[i]);
+            }
+            return result.ToString();
+        }
+
+        public static ulong GetProductOfCages(int start, int end, List<ulong> list)
+        {
+            ulong result = 1;
+            for (int i = start; i <= end; i++)
+            {
+                result *= list[i];
+            }
+            return result;
+        }
+
+        public static BigInteger GetSumOfCages(int start, int end, List<ulong> list)
+        {
+            BigInteger result = 0;
+            for (int i = start; i <= end; i++)
+            {
+                result += list[i];
+            }
+            return result;
+        }
+
+        private static List<ulong> ReadInput()
+        {
+            var result = new List<ulong>();
+
             while (true)
             {
-                n = Console.ReadLine();
-                if (n != "END")
-                {
-                    cages.Add(int.Parse(n));
-                }
-                else
+                var input = Console.ReadLine();
+                if (input == "END")
                 {
                     break;
                 }
+                result.Add(ulong.Parse(input));
             }
+
+            return result;
         }
     }
 }
