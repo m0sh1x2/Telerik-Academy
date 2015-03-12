@@ -3,40 +3,47 @@
     using System;
 
 
-    public enum BatteryTypes
-    {
-        LiLon, NiMH, NiCd
-    }
-
     class Battery
     {
-        private string model;
+
         private int hoursIdle;
         private int hoursTalk;
-        private string batteryType;
+        private BatteryTypes batteryType;
 
-        public Battery(string model, int hoursIdle, int hoursTalk)
+        public Battery(BatteryTypes batteryType)
         {
-            this.Model = model;
+            this.batteryType = batteryType;
+        }
+
+        public Battery(BatteryTypes batteryType, int hoursIdle, int hoursTalk)
+            : this(batteryType)
+        {
             this.HoursIdle = hoursIdle;
             this.HoursTalk = hoursTalk;
-
         }
 
-        public string Model
+
+        /*stack overflow exception
+        public BatteryTypes BatteryType
         {
-            get { return this.model; }
-            set { if (value.Length < 3 || String.IsNullOrWhiteSpace(value)) { throw new ArgumentException("Invalid model value !"); } }
+            get { return this.batteryType; }
+            private set { this.BatteryType = value; }
         }
+        */
         public int HoursIdle
         {
             get { return hoursIdle; }
-            set { if (value < 0) { throw new ArgumentException("Invalid idle hours !"); } this.hoursIdle = value; }
+            private set { if (value < 0) { throw new ArgumentException("Invalid idle hours !"); } this.hoursIdle = value; }
         }
         public int HoursTalk
         {
             get { return this.hoursTalk; }
-            set { if (value < 0) { throw new ArgumentException("Invalid idle hours !"); } this.hoursTalk = value; }
+            private set { if (value < 0) { throw new ArgumentException("Invalid idle hours !"); } this.hoursTalk = value; }
+        }
+
+        public enum BatteryTypes
+        {
+            LiLon, NiMH, NiCd
         }
     }
 }
