@@ -1,7 +1,6 @@
-﻿
-namespace _02.BankAccounts
+﻿namespace _02.BankAccounts
 {
-    enum AccountTypes
+    public enum AccountTypes
     {
         deposit,
         loan,

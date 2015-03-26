@@ -1,24 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _02.BankAccounts
+﻿namespace _02.BankAccounts
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
     public class LoanAccount : Account, IDeposit, IWithdraw
     {
-        public LoanAccount(Customer customer, double balance, double interestRate) : base(customer, balance, interestRate) { }
+        public LoanAccount(Customer customer, double balance, double interestRate)
+            : base(customer, balance, interestRate)
+        {
+        }
 
         public void Deposit(double amount)
         {
-            base.Balance += amount;
+            this.Balance += amount;
         }
 
         public void Withdraw(double amount)
         {
             throw new NotImplementedException();
         }
+
         public override double CalculateInterestRate(double months)
         {
             if (this.Customer is InvidualCustomer)
@@ -31,7 +35,6 @@ namespace _02.BankAccounts
             }
 
             return base.CalculateInterestRate(months);
-
         }
     }
 }

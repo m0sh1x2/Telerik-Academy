@@ -1,14 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _02.BankAccounts
+﻿namespace _02.BankAccounts
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
     public class Bank
     {
         private List<Account> accounts;
+
         public Bank()
         {
             this.accounts = new List<Account>();
@@ -26,10 +27,12 @@ namespace _02.BankAccounts
         {
             this.accounts.Add(customer);
         }
+
         public void RemoveAccount(Account customer)
         {
             this.accounts.Remove(customer);
         }
+
         public override string ToString()
         {
             this.accounts = this.accounts.OrderBy(x => x.Balance).ToList();
@@ -40,10 +43,8 @@ namespace _02.BankAccounts
             {
                 result.AppendLine(item.ToString());
             }
+
             return result.ToString();
         }
-
-
-
     }
 }

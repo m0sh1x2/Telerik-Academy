@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _02.BankAccounts
+﻿namespace _02.BankAccounts
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
     public class DepositAccount : Account, IDeposit, IWithdraw
     {
+        private double saveRate = 0.0;
 
-        public double saveRate = 0.0;
         public DepositAccount(Customer customer, double balance, double interestRate)
             : base(customer, balance, interestRate)
         {
@@ -19,16 +19,19 @@ namespace _02.BankAccounts
                 this.InterestRate = 0.0;
             }
         }
+
         public void Deposit(double amount)
         {
             if (amount <= 0)
             {
                 throw new IndexOutOfRangeException("You can't depoisit negative amounts !");
             }
-            base.Balance += amount;
+
+            this.Balance += amount;
+
             if (this.Balance > 1000)
             {
-                this.InterestRate = saveRate;
+                this.InterestRate = this.saveRate;
             }
             else
             {
@@ -38,11 +41,12 @@ namespace _02.BankAccounts
 
         public void Withdraw(double amount)
         {
-            if ((base.Balance - amount) < 0 || amount < 0)
+            if ((this.Balance - amount) < 0 || amount < 0)
             {
                 throw new IndexOutOfRangeException("You can't withdraw a negative amount !");
             }
-            base.Balance -= amount;
+
+            this.Balance -= amount;
         }
     }
 }
