@@ -1,9 +1,0 @@
-﻿using System;
-
-class ConcatenateTextFiles
-{
-    static void Main()
-    {
-        //•	Write a program that concatenates two text files into another text file.
-    }
-}
