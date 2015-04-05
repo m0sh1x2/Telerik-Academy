@@ -4,11 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8C0C9C4F-FEE7-44D9-A694-4729F087D0A9}</ProjectGuid>
+    <ProjectGuid>{81D5B6F0-CCFE-429F-B4E2-966F8927C2FD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OOPExamPrep</RootNamespace>
-    <AssemblyName>OOPExamPrep</AssemblyName>
+    <RootNamespace>Estates</RootNamespace>
+    <AssemblyName>Estates</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -33,19 +32,36 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Data\Apartment.cs" />
+    <Compile Include="Data\Estate.cs" />
+    <Compile Include="Data\EstateBuilding.cs" />
+    <Compile Include="Data\EstateFactory.cs" />
+    <Compile Include="Data\ExtendedEstateEngine.cs" />
+    <Compile Include="Data\Garage.cs" />
+    <Compile Include="Data\House.cs" />
+    <Compile Include="Data\Offer.cs" />
+    <Compile Include="Data\Office.cs" />
+    <Compile Include="Data\RentOffer.cs" />
+    <Compile Include="Data\SaleOffer.cs" />
+    <Compile Include="Engine\EstatesAgency.cs" />
+    <Compile Include="Interfaces\IEstateEngine.cs" />
+    <Compile Include="Interfaces\EstateType.cs" />
+    <Compile Include="Interfaces\IBuildingEstate.cs" />
+    <Compile Include="Interfaces\IGarage.cs" />
+    <Compile Include="Interfaces\IApartment.cs" />
+    <Compile Include="Interfaces\IEstate.cs" />
+    <Compile Include="Interfaces\IHouse.cs" />
+    <Compile Include="Interfaces\IOffice.cs" />
+    <Compile Include="Interfaces\IRentOffer.cs" />
+    <Compile Include="Interfaces\IOffer.cs" />
+    <Compile Include="Interfaces\ISaleOffer.cs" />
+    <Compile Include="Engine\EstateEngine.cs" />
+    <Compile Include="Interfaces\OfferType.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="Interfaces\InterfacesClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
