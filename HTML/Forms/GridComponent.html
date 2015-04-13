@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	table,tr,td{
+		border-radius:1px;
+		border-collapse:collapse;
+		border:2px solid;
+	}
+	tfoot,thead{
+		background:#cccccc;
+	}
+	img{
+		width:25px;
+		position:fixed;
+		top:auto;
+	}
+	input.arrow0{
+		float:left;
+		margin-top:1px;
+		opacity:0.4;
+	}
+	input.arrow1{
+		float:left;
+		margin-left:5px;
+		margin-top:1px;
+		opacity:0.4;
+	}
+	input.arrow2{
+		float:right;
+		margin-right:500px;
+		margin-top:1px;
+		opacity:0.4;
+	}
+	input.arrow3{
+		float:right;
+		margin-right:5px;
+		margin-top:1px;
+		opacity:0.4;
+	}
+	input.arrow0:hover{opacity:1;}
+	input.arrow1:hover{opacity:1;}
+	input.arrow2:hover{opacity:1;}
+	input.arrow3:hover{opacity:1;}
+	a{
+		text-decoration:none;
+		color:black;
+	}
+	a:hover{
+		border:1px solid red;
+		border-radius:2px;
+		
+	}
+
+</style>
+</head>
+<body>
+	<table width="800px">
+		
+		
+		<thead>
+			<tr><td colspan="6">Drag a column header and drop it here to group by that column</td></tr>
+			<tr><td>ProductID</td><td>Product name</td><td>Unit price</td><td>Quanity per unit</td><td>Units in stock</td><td>Discontinued</td></tr>
+			<tr><td><input size="1" type="textbox" /></td><td><input size="15" type="textbox" /></td><td><input size="5" type="textbox" /><img src="images/symbol.png" /></td><td><input size="14" type="textbox" /></td><td><input size="6" type="textbox" /><img src="images/symbol.png" /></td><td><input type="checkbox"/><img src="images/symbol.png" /></td></tr>
+		</thead>
+		<tbody>
+			<tr><td>1</td><td>Potato</td><td>$30.00</td><td>10 boxes x 20 bags</td><td>39</td><td><input type="checkbox"/></td></tr>
+			<tr><td>2</td><td>Potato</td><td>$30.00</td><td>10 boxes x 20 bags</td><td>39</td><td><input type="checkbox"/></td></tr>
+			<tr><td>3</td><td>Potato</td><td>$30.00</td><td>10 boxes x 20 bags</td><td>39</td><td><input type="checkbox"/></td></tr>
+			<tr><td>4</td><td>Potato</td><td>$30.00</td><td>10 boxes x 20 bags</td><td>39</td><td><input type="checkbox"/></td></tr>
+			<tr><td>5</td><td>Potato</td><td>$30.00</td><td>10 boxes x 20 bags</td><td>39</td><td><input type="checkbox"/></td></tr>
+			<tr><td>6</td><td>Potato</td><td>$30.00</td><td>10 boxes x 20 bags</td><td>39</td><td><input type="checkbox"/></td></tr>
+			<tr><td>7</td><td>Potato</td><td>$30.00</td><td>10 boxes x 20 bags</td><td>39</td><td><input type="checkbox"/></td></tr>
+			<tr><td>8</td><td>Potato</td><td>$30.00</td><td>10 boxes x 20 bags</td><td>39</td><td><input type="checkbox"/></td></tr>
+			<tr><td>9</td><td>Potato</td><td>$30.00</td><td>10 boxes x 20 bags</td><td>39</td><td><input type="checkbox"/></td></tr>
+			<tr><td>10</td><td>Potato</td><td>$30.00</td><td>10 boxes x 20 bags</td><td>39</td><td><input type="checkbox"/></td></tr>
+		</tbody>
+		<tfoot >
+			<td colspan="9">
+				
+					<input class="arrow0" type="image" src="images/Button_Left_Double.jpg"/> &nbsp <input class="arrow1" type="image" src="images/Button_Left_Single.jpg"/>
+						<span id="potato">
+							<a href="#">1</a>,<a href="#">2</a>,<a href="#">3</a>,<a href="#">4</a>,<a href="#">5</a>,<a href="#">6</a>,<a href="#">7</a>,<a href="#">8</a>,<a href="#">9</a>,<a href="#">10</a></select>
+						</span>
+					<input class="arrow2" type="image" src="images/Button_Right_Single.jpg"/> &nbsp <input class="arrow3" type="image" src="images/Button_Right_Double.jpg"/> <select><option>10</option>
+			</td>
+		</tfoot>
+
+	</table>
+</body>
+</html>
